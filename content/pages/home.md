@@ -1,9 +1,12 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+title: Digital economy solutions
+featuredImage: 'https://ucarecdn.com/7b370943-0401-4b4b-87e8-0150de313e21/'
+subtitle: >-
+  We're not a typical web development or marketing agency. We implement
+  technology solutions to help community-oriented businesses succeed via
+  ecommerce.
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
