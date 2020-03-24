@@ -10,7 +10,10 @@ subtitle: >-
   We implement custom technology solutions to help community-oriented businesses
   succeed in the digital economy.
 meta:
-  description: This is a meta description.
-  title: ecomloop - digital economy solutions -
+  description: >-
+    Ecomloop is a boutique digital agency that helps businesses succeed in the
+    digital economy. Business is changing - and we can help your business find
+    the right path and seize your opportunity. 
+  title: ecomloop - digital economy solutions for uncommon businesses
 ---
 Ecomloop is a boutique digital agency that helps businesses succeed in the digital economy. Business is changing - and we can help your business find the right path and seize your opportunity.
