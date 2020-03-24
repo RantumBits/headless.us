@@ -9,6 +9,13 @@ subtitle: >-
 
   We implement custom technology solutions to help community-oriented businesses
   succeed in the digital economy.
+accordion:
+  - content: >-
+      Sell your products and services via ecommerce to reach your community -
+      wherever they may be located. We develop solutions using platforms like
+      Shopify and WooCommerce to help organizations create efficient platforms
+      for managing products and orders. 
+    title: ecommerce development
 meta:
   description: >-
     Ecomloop is a boutique digital agency that helps businesses succeed in the
