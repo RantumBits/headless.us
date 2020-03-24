@@ -18,6 +18,8 @@ accordion:
     title: ecommerce development
   - content: weres
     title: test
+  - content: '1213'
+    title: '123'
 meta:
   description: >-
     Ecomloop is a boutique digital agency that helps businesses succeed in the
