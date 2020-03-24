@@ -16,6 +16,8 @@ accordion:
       Shopify and WooCommerce to help organizations create efficient platforms
       for managing products and orders. 
     title: ecommerce development
+  - content: weres
+    title: test
 meta:
   description: >-
     Ecomloop is a boutique digital agency that helps businesses succeed in the
