@@ -4,11 +4,11 @@ slug: ''
 title: We help uncommon businesses succeed in the digital economy
 featuredImage: 'https://ucarecdn.com/7b370943-0401-4b4b-87e8-0150de313e21/'
 subtitle: >-
-  We're not a typical web development or marketing agency. 
+  ## We're not a typical web development or marketing agency. 
 
 
-  We implement custom technology solutions to help community-oriented businesses
-  succeed in the digital economy.
+  ## We implement custom technology solutions to help community-oriented
+  businesses succeed in the digital economy.
 accordion:
   - content: >-
       Sell your products and services via ecommerce to reach your community -
