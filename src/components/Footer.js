@@ -7,9 +7,9 @@ export default () => (
     <!--<h2 className="taCenter">
       Follow us{' '}
       <a href="https://instagram.com/ecomloop/">@ecomloop</a>
-    </h2>
+    </h2>-->
     <br />
-    <InstagramFeed count="8" />--
+    <!--<InstagramFeed count="8" />-->
     <footer className="footer">
       <div className="container taCenter">
         <span>
