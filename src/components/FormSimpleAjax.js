@@ -94,27 +94,7 @@ class Form extends React.Component {
               <span>Lastname</span>
             </label>
           </div>
-          <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset>
+
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -129,15 +109,17 @@ class Form extends React.Component {
             <select
               className="Form--Input Form--Select"
               name="type"
-              defaultValue="Type of Enquiry"
+              defaultValue="Subject"
               required
             >
               <option disabled hidden>
-                Type of Enquiry
+                Subject
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>Web/ecommerce development</option>
+              <option>Conversion rate optimization</option>
+              <option>Platform strategy & integration</option>
+              <option>Custom project</option>
+              <option>Other</option>
             </select>
           </label>
           <label className="Form--Label">
@@ -155,6 +137,7 @@ class Form extends React.Component {
               className="Form--Input Form--Textarea Form--CheckboxInput"
               name="newsletter"
               type="checkbox"
+              checked
             />
             <span>Get news updates</span>
           </label>
@@ -167,7 +150,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="Submit"
             disabled={this.state.disabled}
           />
         </form>
