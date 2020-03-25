@@ -1,7 +1,7 @@
 ---
 template: HomePage
 slug: ''
-title: Digital economy solutions for uncommon businesses
+title: We help uncommon businesses succeed in the digital economy
 featuredImage: 'https://ucarecdn.com/7b370943-0401-4b4b-87e8-0150de313e21/'
 subtitle: >-
   We're not a typical web development or marketing agency. 
@@ -16,10 +16,18 @@ accordion:
       Shopify and WooCommerce to help organizations create efficient platforms
       for managing products and orders. 
     title: ecommerce development
-  - content: weres
-    title: test
-  - content: '1213'
-    title: '123'
+  - content: >-
+      Turn more visitors into leads and convert leads into customers & clients.
+      We develop and design effective conversion rate optimization strategies
+      using tools like Google Analytics, Google Tag Manager, HotJar, Google
+      Optimize, and other tools. 
+    title: Conversion Rate Optimization
+  - content: >-
+      Choosing the right technology stack can help avoid headaches and make your
+      efforts more effective. Identify the right tools for your businesses needs
+      and make them work together automatically. Some of our favorite tools
+      include Sendgrid, Mailchimp, Twilio, Zapier, and Klaviyo. 
+    title: 'Platform Strategy, Integration & Automation'
 meta:
   description: >-
     Ecomloop is a boutique digital agency that helps businesses succeed in the
