@@ -1,9 +1,9 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
+title: Get in Touch
 featuredImage: 'https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/'
-subtitle: This is the contact page subtitle.
+subtitle: Have a question? Get in touch and we'll get back to you.
 address: |-
   329 Primrose #117181
   Burlingame, California 94010
@@ -20,6 +20,6 @@ meta:
     get in touch! 
   title: Contact Page
 ---
-# get in touch
+# Get in touch
 
 Do you have an uncommon business that needs helps growing via technology, get in touch!
