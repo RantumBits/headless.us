@@ -77,21 +77,21 @@ class Form extends React.Component {
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Firstname"
+                placeholder="First name"
                 name="firstname"
                 required
               />
-              <span>Firstname</span>
+              <span>First name</span>
             </label>
             <label className="Form--Label">
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Lastname"
+                placeholder="Last name"
                 name="lastname"
                 required
               />
-              <span>Lastname</span>
+              <span>Last name</span>
             </label>
           </div>
 
@@ -104,6 +104,16 @@ class Form extends React.Component {
               required
             />
             <span>Email address</span>
+          </label>
+          <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="business"
+              placeholder="Website address"
+              name="url"
+              required
+            />
+            <span>Website address</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
