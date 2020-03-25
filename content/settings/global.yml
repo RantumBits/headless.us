@@ -1,8 +1,14 @@
-siteTitle: Yellow Cake
-siteUrl: 'https://yellowcake.netlify.com'
+siteTitle: ecomloop - we help uncommon businesses succeed in the digital economy
+siteUrl: 'https://ecomloop.com'
 siteDescription: >-
-  A starter project for creating lightning-fast websites with Gatsby v2 Netlify
-  CMS v2 and Uploadcare media library.
+  ecomloop helps uncommon businesses succeed in the digital economy. 
+
+  We're not a typical ecommerce development or marketing agency.
+
+  Our clients are not traditional businesses confined by physical location.
+
+  We develop custom technology solutions to help uncommon businesses succeed in
+  the digital economy.
 socialMediaCard:
-  image: 'https://ucarecdn.com/fcc8d148-a9a8-42ee-a793-0f12b1437f61/'
-googleTrackingId: 'UA-133175780-1'
+  image: 'https://ucarecdn.com/f5fa9b38-ddb4-4a85-adb0-bd6c92b1cbff/'
+googleTrackingId: UA-86276502-1
