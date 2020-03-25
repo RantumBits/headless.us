@@ -8,7 +8,7 @@ address: |-
   329 Primrose #117181
   Burlingame, California 94010
   United States
-phone: 415-761-1650
+phone: 508-332-4418
 email: hello@ecomloop.com
 locations:
   - lat: '37.5780511'
