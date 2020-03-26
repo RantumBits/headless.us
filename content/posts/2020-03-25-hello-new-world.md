@@ -3,6 +3,7 @@ template: SinglePost
 title: 'Hello, (new) world!'
 status: Draft
 date: 2020-03-03T05:11:58.689Z
+featuredImage: 'https://ucarecdn.com/253c9ef9-8943-4845-b215-a859576e7b18/'
 excerpt: >-
   This isn't technically the first post on the ecomloop blog; I've made multiple
   short-lived attempts in the past.
