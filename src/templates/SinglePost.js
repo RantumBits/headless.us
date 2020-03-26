@@ -52,21 +52,7 @@ export const SinglePostTemplate = ({
                 ))}
               </Fragment>
             )}
-            {tags && (
-              <Fragment>
-                <span>|</span>
-                {tags.map((x, index) => (
-                  <span
-                    key={cat.tag}
-                    className="SinglePost--Meta--Category"
-                  >
-                    {x.tag}
-                    {/* Add a comma on all but last category */}
-                    {index !== tags.length - 1 ? ',' : ''}
-                  </span>
-                ))}
-              </Fragment>
-            )}
+            
           </div>
 
           {title && (
