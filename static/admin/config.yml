@@ -293,8 +293,13 @@ collections: # A list of collections the CMS should be able to edit
         name: 'status'
         widget: 'select'
         options: ['Published', 'Featured', 'Draft']
-        default: 'Published'
-      - { label: Date / Order, name: date, widget: date }
+        default: 'Draft'
+      - { label: Date, name: date, widget: datetime }
+      - label: 'Tags'
+        name: 'tags'
+        widget: "list"
+        default: ["ecomloop"]
+        required: false
       - {
           label: Featured Image,
           name: featuredImage,
