@@ -2,7 +2,7 @@
 template: SinglePost
 title: 'Hello, (new) world!'
 status: Published
-date: 2020-03-26T04:11:58.689Z
+date: 2020-03-25T04:11:58.689Z
 excerpt: >-
   This isn't technically the first post on the ecomloop blog; I've made multiple
   short-lived attempts in the past.
