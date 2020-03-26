@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import _get from 'lodash/get'
-
+import _format from 'date-fns/format'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
 
@@ -34,7 +34,7 @@ export const SinglePostTemplate = ({
                 itemProp="dateCreated pubdate datePublished"
                 date={date}
               >
-                {_format(date, 'MMMM dd, yyyy ')}
+                {_format(date, 'MMMM Do, yyyy')}
               </time>
             )}
             {categories && (
@@ -124,7 +124,7 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        date
+        date(formatString: "MMMM Do, yyyy")
         categories {
           category
         }
