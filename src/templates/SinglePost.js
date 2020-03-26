@@ -34,7 +34,7 @@ export const SinglePostTemplate = ({
                 itemProp="dateCreated pubdate datePublished"
                 date={date}
               >
-                {_format(date, 'MMMM Do, yyyy')}
+                {date}
               </time>
             )}
             {categories && (
@@ -124,7 +124,7 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        date(formatString: "MMMM Do, yyyy")
+        date
         categories {
           category
         }
