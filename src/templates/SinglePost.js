@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import _get from 'lodash/get'
-import _format from 'date-fns/format'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
 
@@ -27,16 +26,8 @@ export const SinglePostTemplate = ({
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
-          <div className="SinglePost--Meta">
-            {date && (
-              <time
-                className="SinglePost--Meta--Date"
-                itemProp="dateCreated pubdate datePublished"
-                date={date}
-              >
-                {date}
-              </time>
-            )}
+        <div className="SinglePost--Meta">
+            {date}
             {categories && (
               <Fragment>
                 <span>|</span>
@@ -52,7 +43,6 @@ export const SinglePostTemplate = ({
                 ))}
               </Fragment>
             )}
-
           </div>
 
           {title && (
@@ -124,7 +114,7 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        date
+        date(formatString: "MMMM Do, YYYY")
         categories {
           category
         }

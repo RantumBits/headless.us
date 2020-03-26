@@ -294,7 +294,12 @@ collections: # A list of collections the CMS should be able to edit
         widget: 'select'
         options: ['Published', 'Featured', 'Draft']
         default: 'Draft'
-      - { label: Date, name: date, widget: datetime }
+      - label: 'Date'
+        name: 'date'
+        widget: 'datetime'
+        dateFormat: 'YYYY-MM-DD'
+        timeFormat: 'HH:mm'
+        format: 'YYYY-MM-DD HH:mm'
       - label: 'Tags'
         name: 'tags'
         widget: "list"
