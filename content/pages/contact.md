@@ -3,7 +3,7 @@ template: ContactPage
 slug: contact
 title: Get in Touch
 featuredImage: 'https://ucarecdn.com/5e2dde18-cd5a-4a10-b9e7-c787c270a106/'
-subtitle: Have a question? Get in touch and we'll get back to you.
+subtitle: Have an interesting project? Let's talk!
 address: |-
   329 Primrose Ave #117181
   Burlingame, California 94010
