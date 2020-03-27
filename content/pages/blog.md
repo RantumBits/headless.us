@@ -2,7 +2,7 @@
 template: BlogIndex
 slug: blog
 title: ecomloop blog
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
+featuredImage: 'https://ucarecdn.com/f7f19ea9-82d9-43a9-9f8b-5c20d0d923d1/'
 subtitle: thoughts on the digital economy
 meta:
   description: >-
