@@ -5,6 +5,7 @@ status: Published
 date: '2020-03-27 08:57'
 tags:
   - ecomloop
+featuredImage: 'https://ucarecdn.com/5cd94dc6-bc18-4cfd-92c6-72d769d1e503/'
 excerpt: >-
   The coronavirus pandemic will server as the single biggest catalyst in the
   transition to a digital economy. 
