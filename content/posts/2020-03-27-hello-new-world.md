@@ -1,14 +1,28 @@
 ---
 template: SinglePost
 title: 'Hello, (new) world!'
-status: Draft
-date: '2020-03-27 17:08'
+status: Published
+date: '2020-03-27 08:57'
 tags:
   - ecomloop
-excerpt: 'hello new world. '
+excerpt: >-
+  The coronavirus pandemic will server as the single biggest catalyst in the
+  transition to a digital economy. 
+categories:
+  - category: News
 ---
-This isn't technically the first post on the ecomloop blog; I've made a few short-lived attempts in the past. This is the fist post on this iteration of the blog and the new site. 
+A classic first-post title, with a (small) addition. 
 
+While this isn't technically the first post on the _ecomloop_ blog, this is the fist post on this iteration of the site, one that's been in the works for months. Pushed to the side and postponed until "tomorrow" in lieu of client work, it never seemed worth the effort. The problem was approaching this with the wrong purpose.
 
+The world has changed drastically over the past few weeks in response to the covid-19 pandemic. Many physical location businesses are shut down in many places, record numbers of people are out of work, healthcare systems are inundated, and the economic outlook is grim. 
 
-Past attempts have fallen short because they were meant for a blog that didn't have a purpose. The writing was forced and topics were driven by what I thought would be helpful to a vast-range of ecommerce businesses. This isn't meant as a practical advice blog. It's meant to explore developments in the way humans transact. The world is moving to an entirely digital economy. Many businesses and individuals have already done so and as I write this, the coronavirus stands to be the single biggest catalyst ever towards a the digital economy. All of the elements are in place for a huge boost. Most physical location businesses have been forced close to close for "shelter-in-place" restrictions, while online retailers continue to operate with enormous success. And the local businesses that have stayed open are heavily relying on digital transactions via food & grocery delivery apps like GrubHub, UberEats, DoorDash, Instacart, etc. The demand for grocery delivery is in such high demand that it's become quite difficult to even secure delivery times- at least anecdotally in the San Mateo, CA area & SW Florida (where my parents are located). With no option to shop locally, the tech-averse and anti-big business shoppers have suddenly
+It's not all bad news. The digital economy has continued to operate - and even proliferate. Big retailers likes Amazon, Walmart & Target have seen huge surges and are hiring to meet demand. Local businesses that have stayed open are heavily relying on digital transactions via food & grocery delivery apps like GrubHub, UberEats, DoorDash, Instacart, etc. The demand for grocery delivery is in such high demand that it's become difficult to secure delivery times. Platforms like Shopify are seeing boosts as more businesses look to serve customers online. 
+
+_The coronavirus pandemic will server as the single biggest catalyst in the transition to a digital economy._ ****
+
+All of the elements are in place. The infrastructure already exists and is generally salable to serve a much larger audience. With few options of where to shop, even the tech-averse and pro-local-business crowds will move shopping online - and be unlikely to move back once getting accustomed to the convenience. Likewise, more businesses will move transactions online and see little reason to operate high-overhead physical locations. 
+
+Some of the changes in the world are temporary - and most will have lasting repercussions. The world will not go back to the way it was.
+
+The purpose of this blog is to explore ideas, projects, and ideas in the digital economy. There are plenty of challenges ahead - and immense opportunity.
