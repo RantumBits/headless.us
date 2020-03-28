@@ -1,0 +1,19 @@
+template: SinglPost
+title: 'Black Swan Events – alexdanco.com'
+status: Published
+date: '2020-03-27T18:00:51-07:00'
+tags:
+ - , ,alexdanco.com,*ecommerce
+ featuredImage: '../feedly_images/1585357098.jpg'
+ excerpt: >-
+ 
+ categories:
+  - category: Shared Articles
+  ---
+  The true Black Swan event : unemployment & small business decimation. No past data to predict effect of *all* businesses shuting down for 2+ months. 
+  From on 2020 03 27
+  
+  A highlight: 
+  > 
+  
+  [Read more at alexdanco.com] (https://alexdanco.com/2020/03/27/black-swan-events/)
