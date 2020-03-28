@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: 'Hello, (new) world 2222!'
+title: 'Hello, (new) world!'
 status: Published
 date: '2020-03-27 08:57'
 tags:
