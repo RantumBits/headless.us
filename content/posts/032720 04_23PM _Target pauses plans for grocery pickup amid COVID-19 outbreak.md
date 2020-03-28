@@ -1,1 +1,0 @@
-{"url": "https://docs.google.com/open?id=169dBXRTFOD8KxI8vy9vART7g1Wn5imVtG3n-X8V9LAY", "doc_id": "169dBXRTFOD8KxI8vy9vART7g1Wn5imVtG3n-X8V9LAY", "email": "andrew.maury@gmail.com"}
