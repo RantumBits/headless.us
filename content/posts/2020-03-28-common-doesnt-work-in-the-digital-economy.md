@@ -4,7 +4,7 @@ title: Common doesn't work in the digital economy
 status: Draft
 date: '2020-03-28 20:01'
 tags:
-  - ecomloop
+  - uncommon
 featuredImage: 'https://ucarecdn.com/0ae6a717-f63d-4c82-a0d4-cea56206329d/'
 excerpt: >-
   In the digital economy, there's no room for a common business. The traditional
