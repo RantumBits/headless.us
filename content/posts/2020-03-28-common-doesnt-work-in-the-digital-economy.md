@@ -1,7 +1,7 @@
 ---
 template: SinglePost
 title: Common doesn't work in the digital economy
-status: Draft
+status: Published
 date: '2020-03-28 20:01'
 tags:
   - uncommon
