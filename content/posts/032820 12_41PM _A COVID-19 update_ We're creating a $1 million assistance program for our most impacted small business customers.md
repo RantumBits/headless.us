@@ -8,7 +8,7 @@ tags:
  -
  - Zapier
  - '*ecommerce,Unsaved'
-featuredImage: '../feedly_images/1584760143.jpg'
+featuredImage: '../images/1584760143.jpg'
 excerpt: >-
  'We're offering our small business assistance program to heavily impacted people who meet some combination of these criteria: You work in a business with 10 employees or fewer, or you're a solo entrepreneur. Your business is privately owned. Your business is impacted by "social distancing" in an outsized way. The tourism, food service, hospitality, salon and spa, fitness, and education industries are some examples. You're a current Zapier customer.'
 categories:
