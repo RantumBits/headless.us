@@ -5,16 +5,16 @@ status: Published
 date: '2020-03-28T12:37:57-07:00'
 tags:
  - Marketplace Pulse
- - 
+ -
  - Marketplace Pulse
  - '*ecommerce'
-featuredImage: '../feedly_images/1585061591.jpg'
+featuredImage: '../images/1585061591.jpg'
 excerpt: >-
- Obscure policies around essential items and shipping delays, lack of clear communication from Amazon, as well as any changes yet to come, have created panic for businesses that rely on Amazon for their livelihood. Those businesses employ millions of people trough jobs created by sellers. 
- 
-  
- 
- 
+ Obscure policies around essential items and shipping delays, lack of clear communication from Amazon, as well as any changes yet to come, have created panic for businesses that rely on Amazon for their livelihood. Those businesses employ millions of people trough jobs created by sellers.
+
+
+
+
 
 categories:
   - category: Shared Articles
@@ -22,11 +22,11 @@ categories:
 amazon marketplace sellers are also feeling the pressures of the coronavirus
 
 From Marketplace Pulse on 2020 03 24
-> Obscure policies around essential items and shipping delays, lack of clear communication from Amazon, as well as any changes yet to come, have created panic for businesses that rely on Amazon for their livelihood. Those businesses employ millions of people trough jobs created by sellers. 
- 
-  
- 
- 
+> Obscure policies around essential items and shipping delays, lack of clear communication from Amazon, as well as any changes yet to come, have created panic for businesses that rely on Amazon for their livelihood. Those businesses employ millions of people trough jobs created by sellers.
+
+
+
+
 
 
 [Read more at Marketplace Pulse] (https://www.marketplacepulse.com/articles/amazons-botched-focus-on-essentials)

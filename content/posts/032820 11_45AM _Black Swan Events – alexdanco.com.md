@@ -8,7 +8,7 @@ tags:
  -
  - alexdanco.com
  - '*ecommerce'
-featuredImage: '../feedly_images/1585357098.439.jpg'
+featuredImage: '../images/1585357098.439.jpg'
 excerpt: >-
  Our years and years of looking at jobless claims – which, in total, constitute far more total claims than this week’s 3 million – are not really useful here. That was all learning in parallel. Now we’re dealing with a repeated dose situation, and a degree of sudden, concentrated unemployment at a scale where we do not have any prior experience. The human cost will be so, so big. 
 categories:
