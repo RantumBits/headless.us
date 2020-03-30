@@ -1,10 +1,11 @@
 ---
 template: SinglePost
 title: The way forward
-status: Draft
+status: Published
 date: '2020-03-29 07:33'
 tags:
   - ecomloop
+featuredImage: 'https://ucarecdn.com/b2fd2e04-8cb6-4e6f-a536-fe9c848a5cb6/'
 excerpt: >-
   The digital age will bring huge innovation in technology and business models.
   There's no returning - only moving forward. 
