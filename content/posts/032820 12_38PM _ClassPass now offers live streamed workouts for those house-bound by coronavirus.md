@@ -1,19 +1,24 @@
 ---
 template: SinglePost
-title: 'ClassPass now offers live streamed workouts for those house-bound by coronavirus'
+title: >-
+  ClassPass now offers live streamed workouts for those house-bound by
+  coronavirus
 status: Published
 date: '2020-03-28T12:38:05-07:00'
 tags:
- - Jordan Crook
- -
- - eCommerce – TechCrunch
- - '*ecommerce'
-featuredImage: '../images/1585143504.jpg'
+  - Jordan Crook
+  - null
+  - eCommerce – TechCrunch
+  - '*ecommerce'
+featuredImage: ../images/1585143504.jpg
 excerpt: >
- -ClassPass’s success relies on the health of its 30,000 studio partners, 90 percent of whom have closed their physical locations indefinitely across 30 countries. With the new offering, studios will be able to keep offering their classes to a market in which demand for live-streamed or at-home workouts is skyrocketing.
+  -ClassPass’s success relies on the health of its 30,000 studio partners, 90
+  percent of whom have closed their physical locations indefinitely across 30
+  countries. With the new offering, studios will be able to keep offering their
+  classes to a market in which demand for live-streamed or at-home workouts is
+  skyrocketing.
 categories:
-  - category: Shared Articles
-  - category: Shared Articles
+  - category: Shared Links
 ---
 ClassPass relaunched a live steaming feature for at-home fitness classes - with the assumption it will be a temporary shift of focus
 
