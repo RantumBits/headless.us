@@ -8,7 +8,7 @@ tags:
  -
  - Marketplace Pulse
  - '*ecommerce'
-featuredImage: './1585061591.jpg'
+featuredImage: '../images/1585061591.jpg'
 excerpt: >-
  Obscure policies around essential items and shipping delays, lack of clear communication from Amazon, as well as any changes yet to come, have created panic for businesses that rely on Amazon for their livelihood. Those businesses employ millions of people trough jobs created by sellers.
 
