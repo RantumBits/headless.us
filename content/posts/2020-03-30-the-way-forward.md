@@ -10,7 +10,7 @@ excerpt: >-
   The digital age will bring huge innovation in technology and business models.
   There's no returning - only moving forward. 
 categories:
-  - category: News
+  - category: Notes
 ---
 We face some big unknowns about the future right now. Business is shut down in many areas of the country - and even the world. Thousands have died. Millions are out of work. Governments are enacting unprecedented measures. The situation is bad and the worst is yet to come. 
 
