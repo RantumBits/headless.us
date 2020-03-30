@@ -10,7 +10,7 @@ excerpt: >-
   The coronavirus pandemic will server as the single biggest catalyst in the
   transition to a digital economy.
 categories:
-  - category: News
+  - category: Notes
 ---
 A classic first-post title, with a (small) addition.
 
