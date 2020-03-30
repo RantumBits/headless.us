@@ -1,7 +1,7 @@
 ---
 template: BlogIndex
-title: Shared Articles
+title: Shared Links
 subtitle: ''
-featuredImage: 'https://ucarecdn.com/83a3c73d-f234-4086-9fad-cee3a9626230/'
+featuredImage: 'https://ucarecdn.com/fb4b22b0-b0fb-4ecc-80b0-515a71e931a2/'
 ---
 
