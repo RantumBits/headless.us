@@ -11,7 +11,7 @@ excerpt: >-
   economy has prioritized physical location out of necessity. Consumers chose
   places close to home or on the way to work. 
 categories:
-  - category: News
+  - category: Notes
 ---
 In the digital economy, there's no room for a common business. The traditional economy has prioritized physical location out of necessity. Consumers chose places close to home or on the way to work. 
 
