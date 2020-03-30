@@ -8,7 +8,7 @@ tags:
  -
  - eCommerce – TechCrunch
  - '*ecommerce'
-featuredImage: '../images/1585239698.jpg'
+featuredImage: './1585239698.jpg'
 excerpt: >-
  Though Target won’t roll out curbside fresh grocery pickup now, it continues to operate the grocery delivery business Shipt. This and other grocery delivery services are booming due to the outbreak. Instacart this week said it was hiring 300,000 more full-service shoppers due to coronavirus. Walmart, CVS, Amazon and other U.S. employers are hiring more than 800,000 new workers due to the COVID-19 impacts.
 

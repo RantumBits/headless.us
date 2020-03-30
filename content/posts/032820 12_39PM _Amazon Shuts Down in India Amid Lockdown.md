@@ -8,7 +8,7 @@ tags:
  -
  - Marketplace Pulse
  - '*ecommerce'
-featuredImage: '../images/1585317819.jpg'
+featuredImage: './1585317819.jpg'
 excerpt: >-
  Amazon India has halted most of its operations as well as deactivated all of the nearly 600,000 marketplace sellers as much of the country is under lockdown to prevent the spread of coronavirus. The country’s 1.3 billion people are in a three-week lockdown.
 categories:
