@@ -6,6 +6,13 @@ module.exports = {
     siteUrl: 'https://ecomloop.com'
   },
   plugins: [
+    'gatsby-source-google-docs',
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: ["gatsby-remark-images"],
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
