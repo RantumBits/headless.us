@@ -10,8 +10,8 @@ subtitle: >-
   ## Our clients are _not_ traditional businesses confined by physical location.
 
 
-  ## We develop custom technology solutions to help uncommon businesses succeed
-  in the digital economy.
+  ## We develop & implement solutions to help uncommon businesses leverage
+  technology.
 accordion:
   - content: >-
       Sell your products and services via ecommerce to reach your community -
