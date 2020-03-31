@@ -38,4 +38,4 @@ meta:
     the right path and seize your opportunity. 
   title: ecomloop - digital economy solutions for uncommon businesses
 ---
-The move to a digital economy is upon us. Being the in the right physical place is no longer enough to stay in business. Organizations of all sizes must be exceptional - and work to find their audience.
+The move to the digital economy is upon us. Being the in the right physical place is no longer enough to stay in business. Organizations of all sizes must be exceptional - and work to find their audience.
