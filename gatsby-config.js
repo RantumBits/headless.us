@@ -16,6 +16,7 @@ module.exports = {
         includeInDevelopment: false
       }
     },
+  
     {
       resolve: 'gatsby-plugin-offline',
       options: {
