@@ -8,13 +8,13 @@ tags:
  - Ecommerce
  - eCommerce – TechCrunch
  - '*ecommerce'
-featuredImage: '../feedly_images/1584656911.22.jpg'
+featuredImage: '../images/1584656911.22.jpg'
 excerpt: >-
  It may be the first of its kind in the facility, but it almost certainly won’t be the last. Even as companies encourage workers to stay home at the first sign of sickness for both their benefit and that of customers, many will no doubt come to work. And then there’s the matter of those who are largely asymptomatic. 
 categories:
   - category: Shared Articles
 ---
-How commonplace may this become at ecommerce fulfuillment centers?
+How commonplace may this become at ecommerce fulfillment centers?
 
 From eCommerce – TechCrunch on March 19th 2020
 > It may be the first of its kind in the facility, but it almost certainly won’t be the last. Even as companies encourage workers to stay home at the first sign of sickness for both their benefit and that of customers, many will no doubt come to work. And then there’s the matter of those who are largely asymptomatic. 
