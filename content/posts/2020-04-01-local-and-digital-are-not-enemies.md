@@ -2,7 +2,7 @@
 template: SinglePost
 title: Local and digital are not enemies
 status: Draft
-date: '2020-02-26 17:54'
+date: '2020-04-01 17:54'
 tags:
   - ecomloop
 featuredImage: 'https://ucarecdn.com/2aa0e172-a480-4e0f-bcb5-7402e92c1517/'
