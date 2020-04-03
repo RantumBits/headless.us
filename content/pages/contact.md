@@ -12,7 +12,7 @@ email: hello@ecomloop.com
 locations:
   - lat: '37.5780511'
     lng: '-122.3510674'
-    mapLink: ecomloop
+    mapLink: ''
 meta:
   description: >-
     Do you have an uncommon business that needs helps growing via technology,
