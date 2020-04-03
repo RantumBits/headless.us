@@ -4,7 +4,7 @@ import { MapPin } from 'react-feather'
 
 let mapkey = ''
 if (process.env.GATSBY_NETLIFY_MAP_KEY) {
-  mapkey = process.env.GATSBY_NETLIFY_MAP_KEY
+  mapkey = AIzaSyBGsAcSEv-2R9BtWFuS1zJJdVcZ3x9XQ0A
 }
 
 class GoogleMap extends Component {
