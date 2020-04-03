@@ -6,6 +6,18 @@ module.exports = {
     siteUrl: 'https://ecomloop.com'
   },
   plugins: [
+        'gatsby-source-google-docs',
+        {
+            resolve: 'gatsby-transformer-remark',
+            options: {
+                plugins: ['gatsby-remark-images'],
+                folders: ['1xSLqG_faTddDwktmKdgD8-lxRcvgiIWT'],
+                fieldsMapper: {createdTime: "date", name: "title"},
+                debug: true,
+            },
+        },
+    ],
+  plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
@@ -16,7 +28,7 @@ module.exports = {
         includeInDevelopment: false
       }
     },
-  
+
     {
       resolve: 'gatsby-plugin-offline',
       options: {
