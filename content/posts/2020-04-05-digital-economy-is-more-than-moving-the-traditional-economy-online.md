@@ -4,7 +4,8 @@ title: Digital economy is more than moving the traditional economy online
 status: Published
 date: '2020-04-05 00:00'
 tags:
-  - ''
+  - coronavirus
+  - digital transition
 featuredImage: 'https://ucarecdn.com/5a0c225c-e6ad-491f-b212-091325e7425b/'
 excerpt: >-
   The world is moving to a fully digital economy. Covid-19 and the
