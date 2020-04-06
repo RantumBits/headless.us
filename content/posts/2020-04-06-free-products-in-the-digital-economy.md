@@ -11,6 +11,8 @@ excerpt: >-
   costs. Once a digital good is made, there's almost no cost to making another
   copy.  Providing an initial free sample is a classic marketing strategy
   because it works - and it's more powerful than ever in the digital economy.
+categories:
+  - category: Notes
 ---
 The digital economy makes it easy to reproduce products with zero marginal costs. Once a digital good is made, there's almost no cost to making another copy.  
 
