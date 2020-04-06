@@ -14,6 +14,8 @@ excerpt: >-
 
   Digital creates new possibilities and should enhance - not replace - the old
   ways of doing things.
+categories:
+  - category: Notes
 ---
 The world is moving to a fully digital economy. Covid-19 and the 'stay-at-home' response is pushing businesses and individuals to make that transition at the fastest-rate in our history. 
 
