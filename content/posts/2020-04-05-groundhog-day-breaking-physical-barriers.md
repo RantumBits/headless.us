@@ -5,6 +5,7 @@ status: Published
 date: '2020-04-04 17:57'
 tags:
   - ecomloop
+featuredImage: 'https://ucarecdn.com/e982f98a-5319-4f16-9f1f-9d0eb4b28126/'
 excerpt: >-
   The story of Groundhog Day only begins with monotony - seen as the same
   setting and same people each day - and then shows us how it's the
