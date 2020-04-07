@@ -105,6 +105,16 @@ class Form extends React.Component {
             />
             <span>Email address</span>
           </label>
+          <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputUrl"
+              type="website"
+              placeholder="example.com"
+              name="website"
+              required
+            />
+            <span>Webside address</span>
+          </label>
           <label className="Form--Label has-arrow">
             <select
               className="Form--Input Form--Select"
@@ -135,6 +145,7 @@ class Form extends React.Component {
               className="Form--Input Form--Textarea Form--CheckboxInput"
               name="newsletter"
               type="checkbox"
+              checked
             />
             <span>Get news updates</span>
           </label>
