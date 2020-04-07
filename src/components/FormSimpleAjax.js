@@ -7,7 +7,7 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'contact',
+    name: 'contact form',
     subject: '', // optional subject of the notification email
     action: '/',
     successMessage: 'Thanks for getting in touch. We will get back to you soon',
@@ -156,7 +156,7 @@ class Form extends React.Component {
             data-sitekey="6Ldul-YUAAAAAId_s8tVwfdZVM2ayfcFIHuVinmD"
           />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
-          <input type="hidden" name="form-name" value={name} />
+          <input type="hidden" name={name} value={name} />
           <input
             className="Button Form--SubmitButton"
             type="submit"
