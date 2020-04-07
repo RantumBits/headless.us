@@ -5,6 +5,7 @@ status: Published
 date: '2020-04-07 07:36'
 tags:
   - ecomloop
+featuredImage: 'https://ucarecdn.com/bba05a05-388d-462c-805b-392136d6dc54/'
 excerpt: >-
   Asynchronous communication is possible via a number of digital methods,
   including email, recorded video, blogging, etc. The most powerful aspect of
