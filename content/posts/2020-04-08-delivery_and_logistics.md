@@ -5,9 +5,12 @@ status: Published
 date: '2020-04-08 08:06'
 tags:
   - ecomloop
-featuredImage: 'https://ucarecdn.com/bba05a05-388d-462c-805b-392136d6dc54/'
+featuredImage: 'https://ucarecdn.com/06157722-031b-45dc-b110-681ab3ab8533/'
 excerpt: >-
-  Delivery and logistics companies don't get headlines and workers are often overlooked. When everything runs right, consumers hardly notice they are there. That doesn't diminish the importance. Take time to recognize the make everyday deliveries work - and let's work to make it better.
+  Delivery and logistics companies don't get headlines and workers are often
+  overlooked. When everything runs right, consumers hardly notice they are
+  there. That doesn't diminish the importance. Take time to recognize the make
+  everyday deliveries work - and let's work to make it better.
 categories:
   - category: Notes
 ---
