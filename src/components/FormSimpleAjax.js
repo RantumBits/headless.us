@@ -107,13 +107,13 @@ class Form extends React.Component {
           </label>
           <label className="Form--Label">
             <input
-              className="Form--Input Form--InputUrl"
+              className="Form--Input Form--InputText"
               type="website"
               placeholder="example.com"
               name="website"
               required
             />
-            <span>Webside address</span>
+            <span>Website address</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
@@ -158,7 +158,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="Submit"
             disabled={this.state.disabled}
           />
         </form>
