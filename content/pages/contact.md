@@ -15,8 +15,8 @@ locations:
     mapLink: ''
 meta:
   description: >-
-    Do you have an uncommon business that needs helps growing via technology,
-    get in touch! 
+    Do you have an uncommon business that needs helps growing via technology?
+    Get in touch! 
   title: Contact Page
 ---
 # Get in touch
