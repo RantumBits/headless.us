@@ -7,12 +7,12 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Simple Form Ajax',
+    name: 'contact_form',
     subject: '', // optional subject of the notification email
     action: '',
     successMessage: 'Good to hear from you! We will get back to you soon.',
     errorMessage:
-      'There is a problem and your message has not been sent. Please send an email to hello@ecomloop'
+      'There is a problem and your message has *not* been sent. Please send an email to hello@ecomloop.com'
   }
 
   state = {
@@ -63,11 +63,12 @@ class Form extends React.Component {
         </Helmet>
         <form
           className="Form"
+          method="post"
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify="true"
-          netlify-recaptcha="true"
+          data-netlify='true'
+          netlify-recaptcha='true'
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -157,6 +158,7 @@ class Form extends React.Component {
           <input type="hidden" name="form-name" value={name} />
           <input
             className="Button Form--SubmitButton"
+            name="submit"
             type="submit"
             value="Submit"
             disabled={this.state.disabled}
