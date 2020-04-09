@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Establish a platform by leveraging others
+title: Establish your own platform by leveraging major platforms
 status: Published
 date: '2020-04-09 08:25'
 tags:
