@@ -1,0 +1,22 @@
+---
+template: SinglePost
+title: 'Indian online grocery startup BigBasket raises $60M'
+status: Published
+date: 2020-04-10T13:38:48-07:00
+tags:
+ - Manish Singh
+ - 
+ - eCommerce – TechCrunch
+ - 'ecommerce,food,*ecommerce,startups'
+featuredImage: '../images/1586424836.jpg'
+excerpt: >-
+ The volume of orders on BigBasket has surged by up to five times in recent weeks, said Parekh. But the startup is struggling to find enough people to deliver items to customers as many workers have moved to their hometowns or are cautious about working in the current environment, he said.
+categories:
+  - category: Shared Articles
+---
+This india grocery delivery company has seen 5x increase in usage over the last 4 weeks. Just raised another $60M for a total of $720M. 
+
+From eCommerce – TechCrunch on 2020 04 09
+> The volume of orders on BigBasket has surged by up to five times in recent weeks, said Parekh. But the startup is struggling to find enough people to deliver items to customers as many workers have moved to their hometowns or are cautious about working in the current environment, he said.
+
+[Read more at eCommerce – TechCrunch] (https://techcrunch.com/2020/04/09/indian-online-grocery-startup-bigbasket-raises-60m/)

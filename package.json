@@ -8,6 +8,7 @@
     "url": "https://github.com/thriveweb/yellowcake"
   },
   "dependencies": {
+    "@fs/gatsby-plugin-drive": "^0.2.1",
     "@reach/router": "^1.2.1",
     "core-js": "^3.6.4",
     "dom-form-serializer": "^1.0.7",
@@ -31,6 +32,7 @@
     "gatsby-source-dropbox": "^0.1.1",
     "gatsby-source-filesystem": "^2.1.35",
     "gatsby-source-google-docs": "^2.0.0-beta.5",
+    "gatsby-source-google-sheets": "^1.1.1",
     "gatsby-transformer-remark": "^2.7.1",
     "gatsby-transformer-sharp": "^2.3.2",
     "gatsby-transformer-yaml": "^2.2.15",

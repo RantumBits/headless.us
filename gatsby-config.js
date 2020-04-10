@@ -6,19 +6,17 @@ module.exports = {
     siteUrl: 'https://ecomloop.com'
   },
   plugins: [
-        'gatsby-source-google-docs',
-        {
-            resolve: 'gatsby-transformer-remark',
-            options: {
-                plugins: ['gatsby-remark-images'],
-                folders: ['1xSLqG_faTddDwktmKdgD8-lxRcvgiIWT'],
-                fieldsMapper: {createdTime: "date", name: "title"},
-                debug: true,
-            },
-        },
-    ],
-  plugins: [
     'gatsby-plugin-react-helmet',
+    {
+    resolve: '@fs/gatsby-plugin-drive',
+    options: {
+      folderId: '1xSLqG_faTddDwktmKdgD8-lxRcvgiIWT',
+      keyFile: `${__dirname}/client_secret.json`,
+      destination: `${__dirname}/static/images`,
+      exportGDocs: false,
+      exportMimeType: ''
+    }
+  },
     'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-plugin-google-tagmanager',
@@ -84,6 +82,14 @@ module.exports = {
         name: 'pages'
       }
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/content`,
+        name: 'posts2'
+      }
+    },
+
 
     // images
     'gatsby-plugin-sharp',
