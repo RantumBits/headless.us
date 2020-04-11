@@ -12,11 +12,18 @@ module.exports = {
     options: {
       folderId: '1xSLqG_faTddDwktmKdgD8-lxRcvgiIWT',
       keyFile: `${__dirname}/client_secret.json`,
+      destination: `${__dirname}/content/posts`,
+      exportGDocs: false,
+      exportMimeType: ''
+    },
+    options: {
+      folderId: '1ZUcbDFOxg7UEjyy0f-xmqf7ZGgUkM4rE',
+      keyFile: `${__dirname}/client_secret.json`,
       destination: `${__dirname}/static/images`,
       exportGDocs: false,
       exportMimeType: ''
     }
-  },
+    },
     'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-plugin-google-tagmanager',
