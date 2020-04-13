@@ -7,7 +7,7 @@ tags:
  - logistics
  - economy
  - Coronavirus
-featuredImage: '../images/1585602103.202.jpg'
+featuredImage: 'https://ecomloop.com/images/1585602103.202.jpg'
 excerpt: >-
  With coronavirus potentially disrupting the global supply chain for medicine, India earlier this month restricted the export of 26 pharmaceutical ingredients and the medicines made from them, including acetaminophen — a common pain reliever. India is the world’s leading supplier of generic drugs and is a key source for active pharmaceutical ingredients, or APIs, used to produce a range of medicines.
 categories:

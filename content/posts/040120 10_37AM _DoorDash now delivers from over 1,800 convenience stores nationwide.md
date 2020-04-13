@@ -7,7 +7,7 @@ tags:
  - grocery delivery
  - logistics
  - delivery
-featuredImage: '../images/1585761565.jpg'
+featuredImage: 'https://ecomloop.com/images/1585761565.jpg'
 excerpt: >-
  DoorDash  announced today it’s expanding beyond food to also deliver from convenience stores, like 7-Eleven, Wawa, Circle K, Casey’s General Store and others. The service is partnering with more than 1,800 convenience store locations across the U.S. in order to provide easy access to household essentials like toilet paper, cleaning supplies and over-the-counter medicine, as well as hot and cold foods, drinks, snacks and more.
 categories:
