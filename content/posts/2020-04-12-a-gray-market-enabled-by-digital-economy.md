@@ -1,7 +1,7 @@
 ---
 template: SinglePost
 title: A gray market enabled by digital economy
-status: Draft
+status: Published
 date: '2020-04-12 19:10'
 tags:
   - ecomloop
