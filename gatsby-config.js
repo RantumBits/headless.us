@@ -25,7 +25,7 @@ module.exports = {
     }
     },
     'gatsby-transformer-yaml',
-    
+
 
     {
       resolve: 'gatsby-plugin-offline',
@@ -71,7 +71,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/images`,
+        path: `${__dirname}/images`,
         name: 'images'
       }
     },
