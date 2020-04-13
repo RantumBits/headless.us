@@ -7,6 +7,7 @@ tags:
   - coronavirus
   - traditional retail
   - ecommerce
+featuredImage: 'https://ucarecdn.com/1f9162e1-a0d8-4b4f-8b4d-4bff782d7ff0/'
 excerpt: >-
   Traditional retail was struggling and coronavirus pandemic is accelerating its
   demise.  There will be mass closures of local retailers in the coming 3-12
