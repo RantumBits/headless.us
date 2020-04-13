@@ -12,7 +12,7 @@ featuredImage: '../images/1585317819.jpg'
 excerpt: >-
  Amazon India has halted most of its operations as well as deactivated all of the nearly 600,000 marketplace sellers as much of the country is under lockdown to prevent the spread of coronavirus. The country’s 1.3 billion people are in a three-week lockdown.
 categories:
-  - category: Shared Articles
+  - category: Shared Links
 ---
 Amazon only operates as a marketplace in India (as opposed to a retailer) and has shutdown amid the lockdown. No word yet of doing this elsewhere.
 

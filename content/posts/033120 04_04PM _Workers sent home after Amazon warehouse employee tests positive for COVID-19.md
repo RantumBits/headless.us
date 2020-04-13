@@ -4,15 +4,14 @@ title: 'Workers sent home after Amazon warehouse employee tests positive for COV
 status: Published
 date: '2020-03-31T16:04:31-07:00'
 tags:
- - Brian Heater
- - Ecommerce
- - eCommerce – TechCrunch
- - '*ecommerce'
-featuredImage: '../images/1584656911.22.jpg'
+ - amazon
+ - coronavirus
+ - healthcare
+featuredImage: '/images/1584656911.22.jpg'
 excerpt: >-
  It may be the first of its kind in the facility, but it almost certainly won’t be the last. Even as companies encourage workers to stay home at the first sign of sickness for both their benefit and that of customers, many will no doubt come to work. And then there’s the matter of those who are largely asymptomatic. 
 categories:
-  - category: Shared Articles
+  - category: Shared Links
 ---
 How commonplace may this become at ecommerce fulfillment centers?
 
