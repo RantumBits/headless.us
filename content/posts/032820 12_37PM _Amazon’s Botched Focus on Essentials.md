@@ -8,7 +8,7 @@ tags:
   - null
   - Marketplace Pulse
   - '*ecommerce'
-featuredImage: ../images/1585061591.jpg
+featuredImage: https://ecomloop.com/images/1585061591.jpg
 excerpt: >-
   Obscure policies around essential items and shipping delays, lack of clear
   communication from Amazon, as well as any changes yet to come, have created

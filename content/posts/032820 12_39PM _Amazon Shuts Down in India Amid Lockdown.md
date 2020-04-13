@@ -7,7 +7,7 @@ tags:
  - Amazon
  - India
  - Coronavirus
-featuredImage: '/images/1585317819.jpg'
+featuredImage: https://ecomloop.com/images/1585317819.jpg
 excerpt: >-
  Amazon only operates as a marketplace in India (as opposed to a retailer) and has shutdown amid the lockdown. No word yet of doing this elsewhere.
 categories:

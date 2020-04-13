@@ -10,7 +10,7 @@ tags:
   - null
   - Zapier
   - '*ecommerce,Unsaved'
-featuredImage: ../images/1584760143.jpg
+featuredImage: https://ecomloop.com/images/1584760143.jpg
 excerpt: >-
   'We're offering our small business assistance program to heavily impacted
   people who meet some combination of these criteria: You work in a business

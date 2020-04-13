@@ -10,7 +10,7 @@ tags:
   - null
   - eCommerce – TechCrunch
   - '*ecommerce'
-featuredImage: ../images/1585143504.jpg
+featuredImage: https://ecomloop.com/images/1585143504.jpg
 excerpt: >
   -ClassPass’s success relies on the health of its 30,000 studio partners, 90
   percent of whom have closed their physical locations indefinitely across 30
