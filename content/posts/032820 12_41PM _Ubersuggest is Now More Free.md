@@ -8,7 +8,7 @@ tags:
   - null
   - Neil Patel
   - '*ecommerce'
-featuredImage: ../images/1585044943.jpg
+featuredImage: https://ecomloop.com/images/1585044943.jpg
 excerpt: >
   - And with Coronavirus growing at a rapid pace and affecting so many people
   and businesses, I thought I would do my part and help small businesses out.
