@@ -4,13 +4,12 @@ title: 'Amazon Shuts Down in India Amid Lockdown'
 status: Published
 date: '2020-03-28T12:39:22-07:00'
 tags:
- - Marketplace Pulse
- -
- - Marketplace Pulse
- - '*ecommerce'
-featuredImage: '../images/1585317819.jpg'
+ - Amazon
+ - India
+ - Coronavirus
+featuredImage: '/images/1585317819.jpg'
 excerpt: >-
- Amazon India has halted most of its operations as well as deactivated all of the nearly 600,000 marketplace sellers as much of the country is under lockdown to prevent the spread of coronavirus. The country’s 1.3 billion people are in a three-week lockdown.
+ Amazon only operates as a marketplace in India (as opposed to a retailer) and has shutdown amid the lockdown. No word yet of doing this elsewhere.
 categories:
   - category: Shared Links
 ---

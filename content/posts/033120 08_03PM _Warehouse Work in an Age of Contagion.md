@@ -6,7 +6,7 @@ date: '2020-03-31T20:03:44-07:00'
 tags:
  - amazon
  - coronavirus
- - helthcare
+ - healthcare
 featuredImage: '/images/1585666646.jpg'
 excerpt: >-
  “Gavin Newsome estimates that 56 percent of Californians will eventually contract the coronavirus. Which means that I’m likely to get it myself. If/when I do, I may begin to regret my decision to remain on the job.”
