@@ -7,9 +7,9 @@ tags:
  - amazon
  - coronavirus
  - healthcare
-featuredImage: 'https://ecomloop.com/images/1584656911.22.jpg'
+featuredImage: https://ecomloop.com/images/1584656911.22.jpg
 excerpt: >-
- It may be the first of its kind in the facility, but it almost certainly won’t be the last. Even as companies encourage workers to stay home at the first sign of sickness for both their benefit and that of customers, many will no doubt come to work. And then there’s the matter of those who are largely asymptomatic. 
+ How commonplace may this become at ecommerce fulfillment centers?
 categories:
   - category: Shared Links
 ---
