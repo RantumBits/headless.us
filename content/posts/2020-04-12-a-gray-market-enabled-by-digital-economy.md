@@ -1,10 +1,11 @@
 ---
 template: SinglePost
-title: A gray market enabled by digital economy
+title: An emerging gray market enabled by digital economy
 status: Published
 date: '2020-04-12 19:10'
 tags:
   - ecomloop
+featuredImage: 'https://ucarecdn.com/25adc650-721e-4185-a773-3fe9ea262ed4/'
 excerpt: >-
   Expect to see a pickup in these 'gray market' activities, where contact
   discovery online (google, yelp, etc), transactions are contactless (venmo,
