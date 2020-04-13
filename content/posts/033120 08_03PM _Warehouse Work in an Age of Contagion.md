@@ -7,10 +7,9 @@ tags:
  - amazon
  - coronavirus
  - healthcare
-featuredImage: 'https://ecomloop.com/images/1585666646.jpg
+featuredImage: 'https://ecomloop.com/images/1585666646.jpg'
 excerpt: >-
- 'Gavin Newsom estimates that 56 percent of Californians will eventually contract the coronavirus. Which means that I’m likely to get it myself. If/when I do, I may begin to regret my decision to remain on the job."
-
+  "Gavin Newsom estimates that 56 percent of Californians will eventually contract the coronavirus. Which means that I’m likely to get it myself. If/when I do, I may begin to regret my decision to remain on the job."
 categories:
   - category: Shared Links
 ---
