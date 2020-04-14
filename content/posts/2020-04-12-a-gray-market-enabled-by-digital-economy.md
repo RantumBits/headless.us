@@ -2,11 +2,11 @@
 template: SinglePost
 title: An emerging gray market enabled by digital economy
 status: Published
-date: '2020-04-12T19:10'
+date: '2020-04-12T19:10:12'
 tags:
   - coronavirus
   - gray market
-  - physical retail 
+  - physical retail
 featuredImage: 'https://ucarecdn.com/25adc650-721e-4185-a773-3fe9ea262ed4/'
 excerpt: >-
   Expect to see a pickup in these 'gray market' activities, where contact

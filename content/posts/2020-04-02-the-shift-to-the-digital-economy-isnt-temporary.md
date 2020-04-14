@@ -2,7 +2,7 @@
 template: SinglePost
 title: The shift to the digital economy isn't temporary
 status: Published
-date: '2020-04-02T07:20'
+date: '2020-04-02T07:20:17'
 tags:
   - digital commerce
   - coronavirus

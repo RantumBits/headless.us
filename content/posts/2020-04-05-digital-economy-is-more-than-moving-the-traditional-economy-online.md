@@ -2,7 +2,7 @@
 template: SinglePost
 title: Digital economy is more than moving the traditional economy online
 status: Published
-date: '2020-04-0T06:10'
+date: '2020-04-0T06:10:18'
 tags:
   - coronavirus
   - digital transition

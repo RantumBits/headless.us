@@ -2,7 +2,7 @@
 template: SinglePost
 title: Asynchronous communication
 status: Published
-date: '2020-04-07T07:36'
+date: '2020-04-07T07:36:14'
 tags:
   - communication   
   - productivity

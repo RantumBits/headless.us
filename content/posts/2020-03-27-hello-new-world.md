@@ -2,7 +2,7 @@
 template: SinglePost
 title: 'Hello, (new) world!'
 status: Published
-date: '2020-03-27T08:57'
+date: '2020-03-27T08:57:12'
 tags:
   - ecomloop
   - digital commerce

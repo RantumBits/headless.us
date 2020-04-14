@@ -2,7 +2,7 @@
 template: SinglePost
 title: Local and digital are not enemies
 status: Draft
-date: '2020-04-01T17:54'
+date: '2020-04-01T17:54:17'
 tags:
   - digital commerce
   - local retail

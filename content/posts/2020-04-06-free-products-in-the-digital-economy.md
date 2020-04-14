@@ -2,11 +2,11 @@
 template: SinglePost
 title: Free products in the digital economy
 status: Published
-date: '2020-04-06T07:33'
+date: '2020-04-06T07:33:19'
 tags:
   - free
   - marketing
-  - digital commerce 
+  - digital commerce
 featuredImage: 'https://ucarecdn.com/6483ad2b-e64f-47cc-853c-b620b39567d2/'
 excerpt: >-
   The digital economy makes it easy to reproduce products with zero marginal

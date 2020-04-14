@@ -2,7 +2,7 @@
 template: SinglePost
 title: Establish your own platform by leveraging major platforms
 status: Published
-date: '2020-04-09T08:25'
+date: '2020-04-09T08:25:10'
 tags:
   - platforms
   - social media

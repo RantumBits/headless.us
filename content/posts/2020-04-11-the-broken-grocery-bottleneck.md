@@ -2,7 +2,7 @@
 template: SinglePost
 title: The broken grocery bottleneck
 status: Published
-date: '2020-04-11T15:14'
+date: '2020-04-11T15:14:11'
 tags:
   - grocery delivery
   - logistics

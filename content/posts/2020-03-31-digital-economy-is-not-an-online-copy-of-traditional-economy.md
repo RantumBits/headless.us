@@ -2,11 +2,11 @@
 template: SinglePost
 title: Digital economy is *not* an online copy of traditional economy
 status: Published
-date: '2020-03-30 07:22'
+date: '2020-03-30T07:22:19'
 tags:
   - physical retail
   - digital commerce
-  - business models 
+  - business models
 featuredImage: 'https://ucarecdn.com/3b374ed9-12f9-4b98-8e67-eeb9fad000d2/'
 excerpt: >-
   The digital economy is not a matter of simply moving traditional economy

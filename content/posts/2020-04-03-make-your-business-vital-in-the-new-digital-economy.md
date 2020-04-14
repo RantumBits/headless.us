@@ -2,7 +2,7 @@
 template: SinglePost
 title: Make your business vital in the new digital economy
 status: Published
-date: '2020-04-03T07:09'
+date: '2020-04-03T07:09:19'
 tags:
   - digital commerce
   - coronavirus

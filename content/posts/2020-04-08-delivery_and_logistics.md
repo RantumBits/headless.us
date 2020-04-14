@@ -2,7 +2,7 @@
 template: SinglePost
 title: Delivery & logistics are incredible - and getting better
 status: Published
-date: '2020-04-08T08:06'
+date: '2020-04-08T08:06:10'
 tags:
   - logistics
   - coronavirus

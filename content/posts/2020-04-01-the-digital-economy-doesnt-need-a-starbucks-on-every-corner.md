@@ -2,7 +2,7 @@
 template: SinglePost
 title: The digital economy doesn't need a Starbuck's on every corner
 status: Published
-date: '2020-03-31T16:50'
+date: '2020-03-31T16:50:19'
 tags:
   - uncommon business
   - digital commerce

@@ -2,7 +2,7 @@
 template: SinglePost
 title: The way forward
 status: Published
-date: '2020-03-29T07:33'
+date: '2020-03-29T07:33:19'
 tags:
   - digital commerce
   - coronavirus
