@@ -2,9 +2,11 @@
 template: SinglePost
 title: 'Hello, (new) world!'
 status: Published
-date: '2020-03-27 08:57'
+date: '2020-03-27T08:57'
 tags:
   - ecomloop
+  - digital commerce
+  - first post
 featuredImage: 'https://ucarecdn.com/5cd94dc6-bc18-4cfd-92c6-72d769d1e503/'
 excerpt: >-
   The coronavirus pandemic will server as the single biggest catalyst in the

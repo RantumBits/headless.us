@@ -2,9 +2,11 @@
 template: SinglePost
 title: Delivery & logistics are incredible - and getting better
 status: Published
-date: '2020-04-08 08:06'
+date: '2020-04-08T08:06'
 tags:
-  - ecomloop
+  - logistics
+  - coronavirus
+  - Amazon
 featuredImage: 'https://ucarecdn.com/06157722-031b-45dc-b110-681ab3ab8533/'
 excerpt: >-
   Delivery and logistics companies don't get headlines and workers are often
