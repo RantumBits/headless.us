@@ -1,7 +1,7 @@
 ---
 template: SinglePost
 title: Innovation is coming faster to digital economy
-status: Draft
+status: Published
 date: '2020-04-10T08:14:19'
 tags:
   - digital commerce
