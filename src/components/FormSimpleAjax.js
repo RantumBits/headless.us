@@ -8,8 +8,9 @@ import './Form.css'
 class Form extends React.Component {
   static defaultProps = {
     name: 'contact_form',
-    subject: '', // optional subject of the notification email
+    subject: 'success - form submitted', // optional subject of the notification email
     action: "https://getform.io/f/93249524-1fb5-46d8-b6e2-7c5a0ecf42e0",
+    action: "/success.html",
     successMessage: 'Good to hear from you! We will get back to you soon.',
     errorMessage:
       'There is a problem and your message has *not* been sent. Please send an email to hello@ecomloop.com'
