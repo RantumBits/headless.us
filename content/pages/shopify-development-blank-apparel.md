@@ -1,7 +1,7 @@
 ---
 template: ComponentsPage
 slug: project-shopify-development-blank-apparel
-title: Projects: Shopify Development for Blank Apparel Manufacturer
+title: Shopify Development Project for Blank Apparel Manufacturer
 featuredImage: '/images/shopify development for blank apparel manufacturer.png'
 subtitle: We developed a new Shopify ecommerce site for this Los Angeles-based blank apparel manufacturer to sell via wholesale & retail
 section1: >-
