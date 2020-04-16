@@ -37,7 +37,7 @@ export const ComponentsPageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <h2>Our gallery component</h2>
+        <h2>Screenshot gallery</h2>
         <Gallery images={gallery} />
       </div>
     </section>
@@ -48,11 +48,7 @@ export const ComponentsPageTemplate = ({
       </div>
     </section>
 
-    <section className="BackgroundVideo-section section">
-      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
-        {video && <source src={video} type="video/mp4" />}
-      </BackgroundVideo>
-    </section>
+  
 
     <section className="section">
       <div className="container">
