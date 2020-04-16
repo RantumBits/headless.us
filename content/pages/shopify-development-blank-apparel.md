@@ -15,8 +15,8 @@ section2: |-
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/RKIhUCox-UE" frameborder="0"
   allow="autoplay; encrypted-media" allowfullscreen></iframe>
-video: '/images/shopify development for blank apparel manufacturer.png'
-videoPoster: '/images/shopify development for blank apparel manufacturer.png'
+video: 'https://www.youtube.com/embed/RKIhUCox-UE'
+videoPoster: 'https://ecomloop/images/shopify_development_tee_styled.jpg'
 videoTitle: 'Simple backend management'
 accordion:
   - description: Shopify, Liquid, Klaviyo, Google Analytics, Google Sheets
