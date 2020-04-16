@@ -2,7 +2,7 @@
 template: ComponentsPage
 slug: project-shopify-development-blank-apparel
 title: Shopify Development Project for Blank Apparel Manufacturer
-featuredImage: ./images/shopify_development_for_blank_apparel_manufacturer.jpg
+featuredImage: https://ecomloop.com/images/shopify_development_for_blank_apparel_manufacturer.jpg
 subtitle: We developed a new Shopify ecommerce site for this Los Angeles-based blank apparel manufacturer to sell to existing wholesale customers & introduce a direct-to-consumer retail channel
 section1: >-
   ## A multi-channel solution
