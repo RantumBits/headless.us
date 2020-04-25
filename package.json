@@ -10,6 +10,7 @@
   "dependencies": {
     "@fs/gatsby-plugin-drive": "^0.2.1",
     "@reach/router": "^1.2.1",
+    "async-each": "^1.0.3",
     "core-js": "^3.6.4",
     "dom-form-serializer": "^1.0.7",
     "gatsby": "^2.17.7",

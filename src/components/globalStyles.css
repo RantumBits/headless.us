@@ -5,7 +5,7 @@
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
+  --font-primary: 'Monteserrat Medium', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
 }
@@ -26,6 +26,9 @@
   background: rgba(0, 194, 189, 0.6);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@577&family=Montserrat:wght@600&display=swap');
+
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -34,7 +37,7 @@ html {
 }
 
 body {
-  font-family: var(--font-system);
+  font-family: 'Inconsolata', monospace;
   min-height: 100%;
   position: relative;
   background: white;
@@ -44,6 +47,7 @@ body {
   letter-spacing: 0.01em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+
 }
 
 a {
@@ -59,14 +63,18 @@ p {
   margin-bottom: 1em;
 }
 
-h1,
-h2,
+h1, h2
+{
+  margin: 0;
+  margin-bottom: 0.5em;
+  font-family: 'Monteserrat', sans-serif;
+}
+
 h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-  margin-bottom: 0.5em;
+  font-family: 'Inconsolata', monospace;
 }
 
 pre {

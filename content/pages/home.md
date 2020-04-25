@@ -4,13 +4,13 @@ slug: ''
 title: We help uncommon businesses succeed in the digital economy
 featuredImage: 'https://ucarecdn.com/7b370943-0401-4b4b-87e8-0150de313e21/'
 subtitle: >-
-  ## We're _not_ a typical ecommerce development or marketing agency.
+  ### We're _not_ a typical ecommerce development or marketing agency.
 
 
-  ## Our clients are _not_ traditional businesses confined by physical location.
+  ### Our clients are _not_ traditional businesses confined by physical location.
 
 
-  ## We develop & implement solutions to help uncommon businesses leverage
+  ### We develop & implement solutions to help uncommon businesses leverage
   technology.
 accordion:
   - content: >-
