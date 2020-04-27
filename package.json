@@ -34,6 +34,7 @@
     "gatsby-source-filesystem": "^2.1.35",
     "gatsby-source-google-docs": "^2.0.0-beta.5",
     "gatsby-source-google-sheets": "^1.1.1",
+    "gatsby-source-shopify": "^3.2.0",
     "gatsby-transformer-remark": "^2.7.1",
     "gatsby-transformer-sharp": "^2.3.2",
     "gatsby-transformer-yaml": "^2.2.15",
@@ -51,7 +52,8 @@
     "react-feather": "^2.0.3",
     "react-helmet": "^5.2.1",
     "react-markdown": "^4.2.2",
-    "react-photoswipe": "^1.3.0"
+    "react-photoswipe": "^1.3.0",
+    "shopify-buy": "^2.10.0"
   },
   "keywords": [
     "gatsby"
