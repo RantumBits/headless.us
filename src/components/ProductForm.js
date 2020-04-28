@@ -95,9 +95,16 @@ const ProductForm = ({ product }) => {
     style: 'currency',
   }).format(variant.price)
 
+  const compareAtPrice = Intl.NumberFormat(undefined, {
+    currency: minVariantPrice.currencyCode,
+    minimumFractionDigits: 2,
+    style: 'currency',
+  }).format(variant.compareAtPrice)
+
   return (
     <>
       <h3>{price}</h3>
+      {productVariant.compareAtPrice && (compareAtPrice != price) && <h3 style={{textDecoration: "line-through"}}>{compareAtPrice}</h3>}  
       {!available && <p>This Product is out of Stock!</p>}
     </>
   )
@@ -129,6 +136,7 @@ ProductForm.propTypes = {
         availableForSale: PropTypes.bool,
         id: PropTypes.string,
         price: PropTypes.string,
+        compareAtPrice: PropTypes.string,
         title: PropTypes.string,
         shopifyId: PropTypes.string,
         selectedOptions: PropTypes.arrayOf(

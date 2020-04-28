@@ -1,0 +1,24 @@
+---
+template: SinglePost
+title: 'New effort vs Old effort'
+status: Published
+date: 2020-04-23T10:02:29-07:00
+tags:
+ - '*ecommerce'
+ -
+ -
+featuredImage: 'https://ecomloop.com/images/1587646687.jpg'
+excerpt: >-
+ It takes a lot less physical effort to be present currently - and more focused effort to make connections when physically separated. 
+categories:
+  - category: Shared Links
+---
+It takes a lot less physical effort to be present currently - and more focused effort to make connections when physically separated. 
+
+From Seth's Blog on 2020 04 23
+> Here’s what you had to do to go to a conference in Toronto:
+Get a passport • Register for the event •  Pack • Figure out how to get to the airport on time • Navigate the TSA • Find a hotel • Get to the event • (I left out about a hundred steps).
+Here’s what you had to do go to a meeting in your office:
+Own a car •  Maintain it • Deal with public transport • Risk your life driving to the office • Make sure the dry cleaning was picked up • Navigate evil Bob in reception • (I left out another 100 steps).
+
+[Read more at Seth's Blog] (https://seths.blog/2020/04/new-effort-vs-old-effort/)

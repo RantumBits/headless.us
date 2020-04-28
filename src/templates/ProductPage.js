@@ -1,6 +1,7 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
+import { ChevronLeft } from 'react-feather'
 
 import PageHeader from '../components/PageHeader'
 import Layout from '../components/Layout'
@@ -10,27 +11,61 @@ import './ProductPage.css'
 
 const ProductPage = ({ data }) => {
     const product = data.shopifyProduct
+    const thisEdge = data.allServices.edges.find(edge => edge.node.id === product.id);
+
     return (
         <Layout title={product.title || false}>
-            <div className="TwoColumnGrid">
-                <div className="GridLeft">
-                    {product.images.map(image => (
-                        <Image
-                            fluid={image.localFile.childImageSharp.fluid}
-                            key={image.id}
-                            alt={product.title}
-                        />
-                    ))}
+            <article
+                className="SingleService section light"
+                itemScope
+                itemType="http://schema.org/BlogPosting"
+            >
+                <div className="container skinny">
+                    <Link className="SinglePost--BackButton" to="/services/">
+                        <ChevronLeft /> BACK
+                    </Link>
+                    <div className="SinglePost--Content relative">
+                        {product.title && (
+                            <h1 className="SinglePost--Title" itemProp="title">
+                                {product.title}
+                            </h1>
+                        )}
+
+                        {product.images.map(image => (
+                            <Image
+                                fluid={image.localFile.childImageSharp.fluid}
+                                key={image.id}
+                                alt={product.title}
+                            />
+                        ))}
+
+                        <div className="SinglePost--InnerContent">
+                            <div dangerouslySetInnerHTML={{ __html: product.descriptionHtml }} />
+                            <ProductForm product={product} />
+                        </div>
+
+                        <div className="SinglePost--Pagination">
+                            {thisEdge && thisEdge.previous && thisEdge.previous.handle && (
+                                <Link
+                                    className="SinglePost--Pagination--Link prev"
+                                    to={`/service/${thisEdge.previous.handle}`}
+                                >
+                                    Previous Post
+                                </Link>
+                            )}
+                            {thisEdge && thisEdge.next && thisEdge.next.handle && (
+                                <Link
+                                    className="SinglePost--Pagination--Link next"
+                                    to={`/service/${thisEdge.next.handle}`}
+                                >
+                                    Next Post
+                                </Link>
+                            )}
+                        </div>
+                    </div>
                 </div>
-                <div className="GridRight">
-                    <h1 className="ProductTitle">{product.title}</h1>
-                    <div className="ProductDescription"
-                        dangerouslySetInnerHTML={{ __html: product.descriptionHtml }}
-                    />
-                    <ProductForm product={product} />
-                </div>
-            </div>
-        </Layout>
+            </article>
+        </Layout >
     )
 }
 
@@ -56,6 +91,7 @@ export const pageQuery = graphql`
         title
         price
         availableForSale
+        compareAtPrice
         shopifyId
         selectedOptions {
           name
@@ -84,5 +120,22 @@ export const pageQuery = graphql`
         }
       }
     }
+
+    allServices: allShopifyProduct(sort: {fields: publishedAt, order: DESC}) {
+      edges {
+        node {
+          id
+        }
+        next {
+          title
+          handle
+        }
+        previous {
+          title
+          handle
+        }
+      }
+    }
+  
   }
 `

@@ -1,0 +1,23 @@
+---
+template: SinglePost
+title: 'Dumped Milk, Smashed Eggs, Plowed Vegetables: Food Waste of the Pandemic'
+status: Published
+date: 2020-04-27T21:18:21-07:00
+tags:
+ - 'Saved For Later,*ecommerce'
+ -
+ -
+featuredImage: 'https://ecomloop.com/images/1587476152.jpg'
+excerpt: >-
+ People are hungry and food is being dumped.
+Time to solve solve some of these inefficiencies. 
+categories:
+  - category: Shared Links
+---
+People are hungry and food is being dumped.
+Time to solve solve some of these inefficiencies. 
+
+From The New York Times on 2020 04 21
+> 
+
+[Read more at The New York Times] (https://www.nytimes.com/2020/04/11/business/coronavirus-destroying-food.html)

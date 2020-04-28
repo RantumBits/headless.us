@@ -1,37 +1,82 @@
-div.TwoColumnGrid {
-    display: grid;
-    grid-template-columns: 1fr 2rem 1fr;
-    grid-template-rows: 1auto;
-    grid-template-areas: "left . right";
+.SingleService {
+  background: var(--lightGrey);
 }
 
-div.GridLeft {
-    grid-area: left;
+.SingleService .gatsby-image-wrapper {
+    margin: 1em 15em 1em 15em;
 }
 
-div.GridLeft .gatsby-image-wrapper {
-    margin: 1em 5em 5em 5em;
+.SingleService--BackButton {
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.1em;
 }
 
-div.GridRight {
-    grid-area: right;
+.SingleService--BackButton svg {
+  transition: transform 0.2s ease-out;
+  transform: translateX(0);
+  height: 1.2em;
 }
 
-h1.ProductTitle {
-    font-size: 2.25rem;
-    margin-bottom: 15px;
-    word-wrap: break-word;
-    font-weight: 400;
-    margin: 0 0 0.5rem;
-    line-height: 1.4;
+.SingleService--BackButton:hover svg,
+.SingleService--BackButton:focus svg {
+  transform: translateX(-0.25em);
 }
 
-div.ProductDescription {
-    margin-top: 40px;
+.SingleService--Content {
+  background: white;
+  padding: 8rem 8rem 4rem 8rem;
 }
 
-@media screen and (max-width: 888px) {
-    div.TwoColumnGrid {
-        display: block;
-    }
+@media screen and (max-width: 750px) {
+  .SingleService--Content {
+    padding: 4rem 2rem;
+  }
+}
+
+.SingleService--Meta {
+  font-size: 1rem;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.SingleService--Meta > * + * {
+  margin-left: 0.75em;
+}
+
+.SingleService--Title {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.SingleService--InnerContent {
+  padding: 0 8rem;
+}
+
+@media screen and (max-width: 750px) {
+  .SingleService--InnerContent {
+    padding: 0;
+  }
+}
+
+.SingleService--Pagination {
+  margin: 4rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SingleService--Pagination--Link {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.SingleService--Pagination--Link.next {
+  margin-left: auto;
 }

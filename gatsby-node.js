@@ -73,7 +73,7 @@ exports.createPages = ({ actions, graphql }) => {
     `).then(result => {
         result.data.allShopifyProduct.edges.forEach(({ node }) => {
         createPage({
-            path: `/product/${node.handle}/`,
+            path: `/service/${node.handle}/`,
             component: path.resolve(`./src/templates/ProductPage.js`),
             context: {
             // Data passed to context is available

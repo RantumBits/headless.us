@@ -1,0 +1,22 @@
+---
+template: SinglePost
+title: 'Coronavirus Fraud on Walmart Marketplace'
+status: Published
+date: 2020-04-21T20:49:39-07:00
+tags:
+ - 'amazon,Walmart,social proof,*ecommerce'
+ -
+ -
+featuredImage: 'https://ecomloop.com/images/1587477919.jpg'
+excerpt: >-
+ Walmart has not cracked down on fraudulent sellers as quickly as Amazon, and it’s still disappointing customers by accepting face mask orders for products that don’t exist. 
+categories:
+  - category: Shared Links
+---
+Walmart has not cracked down on fraudulent sellers as quickly as Amazon, and it’s still disappointing customers by accepting face mask orders for products that don’t exist. 
+
+From Marketplace Pulse on 2020 04 21
+> However, the approval process doesn’t fully prevent fraudulent sellers from joining the marketplace. Combined with the lack of seller reviews on Walmart, it often takes the company a few weeks before it notices those sellers and suspends them.
+These are similar issues Amazon has been having with its marketplace recently too. On Amazon, however, seller suspension is faster, and individual sellers rarely impact many customers. Amazon has informed its sellers that it will block new listings for face masks, hand sanitizers, and other essentials, in early March.
+
+[Read more at Marketplace Pulse] (https://www.marketplacepulse.com/articles/coronavirus-fraud-on-walmart-marketplace)

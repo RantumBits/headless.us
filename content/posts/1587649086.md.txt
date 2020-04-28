@@ -1,0 +1,22 @@
+---
+template: SinglePost
+title: 'Amazon begins selling items from neighborhood stores in India amid Facebook’s deal with Jio'
+status: Published
+date: 2020-04-23T11:58:48-07:00
+tags:
+ - '*ecommerce'
+ -
+ -
+featuredImage: 'https://ecomloop.com/images/1587649086.jpg'
+excerpt: >-
+ The idea of bringing commerce/restaurants to neighborhoods has been on my mind lately. It’s apparently already working well in India and is with considering for US market as commercial real estate demands and living habits evolve. 
+categories:
+  - category: Shared Links
+---
+The idea of bringing commerce/restaurants to neighborhoods has been on my mind lately. It’s apparently already working well in India and is with considering for US market as commercial real estate demands and living habits evolve. 
+
+From eCommerce – TechCrunch on 2020 04 23
+> The race to win the ubiquitous neighborhood stores is on in India. A day after Facebook  invested $5.7 billion in Reliance Jio Platforms to serve tens of millions of neighborhood stores in the country, the world’s largest e-commerce firm has launched “Local Shops on Amazon.”
+The program will help customers discover products from local shops in their city. These shops will deliver the items themselves. In the event they want to service customers outside their serviceable area, they can work with Amazon  to fulfill those orders, the company said.
+
+[Read more at eCommerce – TechCrunch] (https://techcrunch.com/2020/04/23/amazon-begins-selling-items-from-neighborhood-stores-in-india-amid-facebooks-deal-with-jio/)
