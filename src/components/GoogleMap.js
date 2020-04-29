@@ -13,7 +13,7 @@ class GoogleMap extends Component {
       lat: 37.5780511,
       lng: -122.3510674
     },
-    zoom: 14
+    zoom: 16
   }
 
   render() {
@@ -25,7 +25,7 @@ class GoogleMap extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-          <Marker lat={-28.0914483} lng={153.4425208} text={'Kreyser Avrora'} />
+          <Marker lat={37.5780511} lng={-122.3510674} text={'here we are!'} />
         </GoogleMapReact>
       </div>
     )
@@ -36,7 +36,7 @@ export default GoogleMap
 
 const Marker = () => {
   return (
-    <div style={{ color: 'red' }}>
+    <div style={{ color: 'blue' }}>
       <MapPin />
     </div>
   )
