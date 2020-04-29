@@ -27,6 +27,8 @@ class PostSection extends React.Component {
       { limit } = this.state,
       visiblePosts = posts.slice(0, limit || posts.length)
 
+      //console.log(posts)
+
     return (
       <div className="PostSection">
         {title && <h2 className="PostSection--Title">{title}</h2>}

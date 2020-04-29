@@ -21,12 +21,12 @@ const ProductPage = ({ data }) => {
                 itemType="http://schema.org/BlogPosting"
             >
                 <div className="container skinny">
-                    <Link className="SinglePost--BackButton" to="/services/">
+                    <Link className="SingleService--BackButton" to="/services/">
                         <ChevronLeft /> BACK
                     </Link>
-                    <div className="SinglePost--Content relative">
+                    <div className="SingleService--Content relative">
                         {product.title && (
-                            <h1 className="SinglePost--Title" itemProp="title">
+                            <h1 className="SingleService--Title" itemProp="title">
                                 {product.title}
                             </h1>
                         )}
@@ -39,26 +39,26 @@ const ProductPage = ({ data }) => {
                             />
                         ))}
 
-                        <div className="SinglePost--InnerContent">
+                        <div className="SingleService--InnerContent">
                             <div dangerouslySetInnerHTML={{ __html: product.descriptionHtml }} />
                             <ProductForm product={product} />
                         </div>
 
-                        <div className="SinglePost--Pagination">
+                        <div className="SingleService--Pagination">
                             {thisEdge && thisEdge.previous && thisEdge.previous.handle && (
                                 <Link
-                                    className="SinglePost--Pagination--Link prev"
+                                    className="SingleService--Pagination--Link prev"
                                     to={`/service/${thisEdge.previous.handle}`}
                                 >
-                                    Previous Post
+                                    Previous Service
                                 </Link>
                             )}
                             {thisEdge && thisEdge.next && thisEdge.next.handle && (
                                 <Link
-                                    className="SinglePost--Pagination--Link next"
+                                    className="SingleService--Pagination--Link next"
                                     to={`/service/${thisEdge.next.handle}`}
                                 >
-                                    Next Post
+                                    Next Service
                                 </Link>
                             )}
                         </div>
