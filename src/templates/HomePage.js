@@ -52,7 +52,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
         {!!posts.length && (
             <section className="section">
                 <div className="container">
-                    <PostSection title="Recent Blog Posts" posts={posts} />
+                    <PostSection title="Recent Posts" posts={posts} />
                 </div>
             </section>
         )}
