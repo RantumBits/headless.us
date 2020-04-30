@@ -1,0 +1,27 @@
+---
+template: SinglePost
+title: 'Google Shopping Is Again an E-Commerce Aggregator'
+status: Published
+date: 2020-04-29T21:27:29-07:00
+tags:
+ - '*ecommerce'
+ -
+ -
+featuredImage: 'https://ecomloop.com/images/1588075483.jpg'
+excerpt: >-
+ Google is offering free product listings to merchants - and it has an opportunity to be marketplace competitor. 
+
+“Google Shopping is a half a dozen 
+different ideas trying to live under one brand.”
+categories:
+  - category: Shared Links
+---
+Google is offering free product listings to merchants - and it has an opportunity to be marketplace competitor. 
+
+“Google Shopping is a half a dozen 
+different ideas trying to live under one brand.”
+
+From Marketplace Pulse on 2020 04 28
+> 
+
+[Read more at Marketplace Pulse] (https://www.marketplacepulse.com/articles/google-shopping-is-again-an-e-commerce-aggregator)

@@ -1,0 +1,25 @@
+---
+template: SinglePost
+title: 'Shopify launches Shop, a new mobile app'
+status: Published
+date: 2020-04-29T21:22:34-07:00
+tags:
+ - '*ecommerce'
+ -
+ -
+featuredImage: 'https://ecomloop.com/images/1588068489.jpg'
+excerpt: >-
+ This is a move towards building a better marketplace - and there’s a big opportunity. 
+
+Major marketplaces suffer from quality issues and are bad for product/brand differentiation. Amazon has turned nearly everything into a commodity. 
+categories:
+  - category: Shared Links
+---
+This is a move towards building a better marketplace - and there’s a big opportunity. 
+
+Major marketplaces suffer from quality issues and are bad for product/brand differentiation. Amazon has turned nearly everything into a commodity. 
+
+From eCommerce – TechCrunch on 2020 04 28
+> 
+
+[Read more at eCommerce – TechCrunch] (https://techcrunch.com/2020/04/28/shopify-launches-shop-a-new-mobile-shopping-app/)

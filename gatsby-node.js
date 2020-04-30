@@ -133,5 +133,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
+
 // Random fix for https://github.com/gatsbyjs/gatsby/issues/5700
 module.exports.resolvableExtensions = () => ['.json']

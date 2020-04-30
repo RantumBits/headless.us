@@ -86,8 +86,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'ecomloop',
+        short_name: 'ecomloop',
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',

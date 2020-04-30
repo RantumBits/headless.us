@@ -1,5 +1,5 @@
 ---
-template: BlogIndex
+template: ProjectIndex
 slug: projects
 title: ecomloop projects
 featuredImage: 'https://ucarecdn.com/f7f19ea9-82d9-43a9-9f8b-5c20d0d923d1/'
