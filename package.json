@@ -2,7 +2,7 @@
   "name": "ecomloop",
   "HomePage": "https://ecomloop.com/",
   "description": "We help uncommon businesses succeed in the digital economy",
-  "version": "0.9.2",
+  "version": "1.2.2",
   "repository": {
     "type": "git",
     "url": "https://github.comecomloop/ecomloop"
