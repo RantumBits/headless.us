@@ -11,7 +11,7 @@ subtitle: >-
 
 
   ### We develop & implement solutions to help uncommon businesses leverage
-  technology.
+  technology effectively.
 accordion:
   - content: >-
       Sell your products and services via ecommerce to reach your community -

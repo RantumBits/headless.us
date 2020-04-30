@@ -39,18 +39,20 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
                 <Content source={body} />
             </div>
         </section>
-        {!!posts.length && (
-            <section className="section">
-                <div className="container">
-                    <PostSection title="Posts" posts={posts} />
-                </div>
-            </section>
-        )}
+
 
         {!!services.length && convertServicesToPostFormat(services) && (
             <section className="section">
                 <div className="container">
                     <PostSection title="Services" posts={convertServicesToPostFormat(services)}/>
+                </div>
+            </section>
+        )}
+
+        {!!posts.length && (
+            <section className="section">
+                <div className="container">
+                    <PostSection title="Recent Blog Posts" posts={posts} />
                 </div>
             </section>
         )}
@@ -106,7 +108,7 @@ export const pageQuery = graphql`
     }
 
     posts: allMarkdownRemark(
-      limit: 3  
+      limit: 3
       filter: { fields: { contentType: { eq: "posts" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
