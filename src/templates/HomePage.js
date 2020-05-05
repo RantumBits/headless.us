@@ -41,27 +41,33 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
         </section>
 
 
+
         {!!services.length && convertServicesToPostFormat(services) && (
             <section className="section">
                 <div className="container">
-                    <PostSection title="Services" posts={convertServicesToPostFormat(services)}/>
-                </div>
-            </section>
-        )}
-
-        {!!posts.length && (
-            <section className="section">
-                <div className="container">
-                    <PostSection title="Recent Posts" posts={posts} />
+                    <PostSection title="Leverage technology more effectively - starting today" posts={convertServicesToPostFormat(services)}/>
                 </div>
             </section>
         )}
 
         <section className="section">
             <div className="container">
-                <Accordion items={accordion} />
+                <PostSection title="Partners in your digital commerce success"/>
+                <Accordion title="Clients are our partners" items={accordion} />
             </div>
         </section>
+
+        {!!posts.length && (
+            <section className="section">
+                <div className="container">
+                    <PostSection title="Recent Posts" posts={posts} />
+
+                </div>
+
+            </section>
+        )}
+
+
     </main>
 
 )

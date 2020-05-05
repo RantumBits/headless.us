@@ -14,23 +14,21 @@ subtitle: >-
   technology effectively.
 accordion:
   - content: >-
-      Sell your products and services via ecommerce to reach your community -
-      wherever they may be located. We develop solutions using platforms like
-      Shopify and WooCommerce to help organizations create efficient platforms
-      for managing products and orders.
-    title: ecommerce development
+      ecomloop does exceptional work and was a big part of our success. We will be using him for more projects in the future.
+      - [Duffy Supply Company](http://duffysupply.com/)
+    title: "exceptional work and a big part of our success"
   - content: >-
-      Turn more visitors into leads and convert leads into customers & clients.
-      We develop and design effective conversion rate optimization strategies
-      using tools like Google Analytics, Google Tag Manager, HotJar, Google
-      Optimize, and other tools.
-    title: Conversion Rate Optimization
+      Ecomloop was a pleasure to work with. They were able to deliver on the job, building us a new product detail page for our Shopify site. They weres communicative and patient and went above and beyond to deliver on our expectations. I would definitely work with Andrew again.
+      - [Pour Vida Coffee](https://pourvida.com)
+    title: "went above and beyond to deliver on our expectations"
   - content: >-
-      Choosing the right technology stack can help avoid headaches and make your
-      efforts more effective. Identify the right tools for your businesses needs
-      and make them work together automatically. Some of our favorite tools
-      include Sendgrid, Mailchimp, Twilio, Zapier, and Klaviyo.
-    title: 'Platform Strategy, Integration & Automation'
+      ecomloop is great to work with. Great communication, very detail oriented, major skills, couldn't be happier with their leadership in developing a shopify store. The store that we are building has an increasing number of components that are being constantly added and Andrew is able to utilize and incorporate a number of apps to get the job done. He's also a very creative problem solver and has come up with novel solutions along the way.
+      - SkipTheBookstore(https://skipthebookstore.com)
+    title: great communication, very detail oriented, major skills
+  - content: >-
+      ecomloop was a pleasure to work with. They were able to deliver on the job, building us a new product detail page for our Shopify site. They were communicative and patient and went above and beyond to deliver on our expectations. I would definitely work with ecomloop again.
+        - Davka Sandals(https://davkasandals.com)
+    title: "went above and beyond to deliver on our expectations"
 meta:
   description: >-
     Ecomloop is a boutique digital agency that helps businesses succeed in the
@@ -38,6 +36,7 @@ meta:
     the right path and seize your opportunity.
   title: ecomloop - digital economy solutions for uncommon businesses
 ---
+##Great products deserve great technology. Let's make it happen. 
 The world is moving to a digital economy at a faster rate than ever before. Well-implemented technology helps empower organizations to overcome limitations imposed by the traditional, physical economy.
 
 In the digital economy, nearly everyone has access to the same services, goods and tools. With reputation & trust built and displayed publicly, only the best survive.
