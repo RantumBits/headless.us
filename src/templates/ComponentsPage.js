@@ -17,9 +17,11 @@ export const ComponentsPageTemplate = ({
   section1,
   section2,
   video,
+  date,
   videoPoster,
   videoTitle,
   accordion,
+  client,
   body,
   gallery
 }) => (
@@ -31,7 +33,9 @@ export const ComponentsPageTemplate = ({
     />
     <section className="section">
       <div className="container">
+        <h4>Client: {client} | {date}</h4>
         <Content source={section1} />
+
       </div>
     </section>
 
@@ -48,7 +52,7 @@ export const ComponentsPageTemplate = ({
       </div>
     </section>
 
-  
+
 
     <section className="section">
       <div className="container">
@@ -90,9 +94,11 @@ export const pageQuery = graphql`
         featuredImage
         section1
         section2
+        date(formatString: "MMMM YYYY")
         video
         videoPoster
         videoTitle
+        client
         accordion {
           title
           description

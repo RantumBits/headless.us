@@ -24,7 +24,7 @@ accordion:
     title: Easy inventory updates
 gallery:
   - alt: shopify development for apparel
-    image: ./images/ecommerce_development_for_clothing.jpg
+    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
     title: Collection page features quick-shop capabilities & secondary image on hover
   - alt: apparel ecommerce web development
     image: ./images/apparel_ecommerce_web_development.jpg
