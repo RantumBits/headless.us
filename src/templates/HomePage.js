@@ -50,6 +50,15 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
             </section>
         )}
 
+
+
+        {!!projects.length && (
+            <section className="section">
+                <div className="container">
+                    <PostSection title="Our Projects" posts={projects} />
+                </div>
+            </section>
+        )}
         <section className="section">
             <div className="container">
                 <PostSection title="Partners in your digital commerce success"/>
@@ -60,20 +69,14 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
         {!!posts.length && (
             <section className="section">
                 <div className="container">
-                    <PostSection title="Recent Posts" posts={posts} />
+                    <PostSection title="Recent Blog Posts" posts={posts} />
 
                 </div>
 
             </section>
         )}
 
-        {!!projects.length && (
-            <section className="section">
-                <div className="container">
-                    <PostSection title="Our Projects" posts={projects} />
-                </div>
-            </section>
-        )}
+
 
     </main>
 

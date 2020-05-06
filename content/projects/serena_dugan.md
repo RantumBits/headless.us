@@ -1,5 +1,5 @@
 ---
-template: ProjectsPage
+template: ProjectPage
 slug: shopify-web-development-home-decor
 client: Serena Dugan
 url: https://serenadugan.com/
@@ -21,22 +21,16 @@ section2:
 accordion:
   - description: Shopify, Liquid, Google Sheets
     title: Platforms & technologies
-  - description:
-    title:
-  - description:
-    title:
-  - description:
-    title:
 gallery:
-  - alt: shopify development for apparel
-    image: ../images/ecommerce_development_for_clothing.jpg
-    title: Collection page features quick-shop capabilities & secondary image on hover
-  - alt: apparel ecommerce web development
-    image: ./images/apparel_ecommerce_web_development.jpg
-    title: Product pages display large images which swap upon color selection
-  - alt: shopify development for clothing companies
-    image: ./images/shopify_development_for_clothing_companies.jpg
-    title: Easy checkout with multiple payment features
+  - alt: Customized collection page with each variant listed & manually sorted in backend
+    image: ../images/shopify-web-development_serena-dugan.jpg
+    title: Customize collection page
+  - alt: Product page changes image sets based upon color selection
+    image: ../images/shopify-web-development_product-page.jpg
+    title: Product pages customization
+  - alt: Related product section includes specific variations & manual list of items
+    image: ../images/shopify-web-development_custom-related-products.png
+    title: Related product section
 meta:
   description: Custom theme development for a new line from a renowned designer
   title: Shopify Web Development

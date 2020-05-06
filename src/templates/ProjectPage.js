@@ -62,9 +62,8 @@ export const ProjectsPageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <Popup>
-          <Content source={section1} />
-        </Popup>
+      <strong>Is your organization effectively leveraging technology for growth?</strong> &nbsp;
+        <a href="/contact/" className="Nav--CTA animated rubberBand slow delay-5s center">Get in touch</a>
       </div>
     </section>
   </main>

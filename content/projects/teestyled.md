@@ -4,7 +4,7 @@ slug: shopify-development-apparel
 client: TeeStyled
 url: https://teestyled.com
 title: Shopify Development for Apparel Manufacturer
-featuredImage: ../images/shopify_development_for_blank_apparel_manufacturer.jpg
+featuredImage: ../images/shopify_development_apparel.jpg
 subtitle: We developed a new Shopify ecommerce site for this Los Angeles-based blank apparel manufacturer to sell to existing wholesale customers & introduce a direct-to-consumer retail channel
 tags:
  - wholesale ecommerce

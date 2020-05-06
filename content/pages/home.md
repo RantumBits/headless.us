@@ -15,7 +15,8 @@ subtitle: >-
 accordion:
   - content: >-
       ecomloop does exceptional work and was a big part of our success. We will be using him for more projects in the future.
-      - [Duffy Supply Company](http://duffysupply.com/)
+
+      - Duffy Supply Company(http://duffysupply.com/)
     title: "exceptional work and a big part of our success"
   - content: >-
       Ecomloop was a pleasure to work with. They were able to deliver on the job, building us a new product detail page for our Shopify site. They weres communicative and patient and went above and beyond to deliver on our expectations. I would definitely work with Andrew again.
@@ -36,7 +37,8 @@ meta:
     the right path and seize your opportunity.
   title: ecomloop - digital economy solutions for uncommon businesses
 ---
-##Great products deserve great technology. Let's make it happen. 
+## Is your organization effectively leveraging technology for growth?
+
 The world is moving to a digital economy at a faster rate than ever before. Well-implemented technology helps empower organizations to overcome limitations imposed by the traditional, physical economy.
 
 In the digital economy, nearly everyone has access to the same services, goods and tools. With reputation & trust built and displayed publicly, only the best survive.
