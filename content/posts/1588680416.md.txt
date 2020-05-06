@@ -1,0 +1,21 @@
+---
+template: SinglePost
+title: 'Chinese Sellers on Amazon Losing Ground'
+status: Published
+date: 2020-05-05T21:20:21-07:00
+tags:
+ - '*ecommerce'
+ -
+ -
+featuredImage: 'https://ecomloop.com/images/1588680416.jpg'
+excerpt: >-
+ 
+categories:
+  - category: Shared Links
+---
+
+
+From Marketplace Pulse on 2020 05 05
+> One of the most significant causes of the downward trend was the disruption to Fulfillment by Amazon (FBA) service. Among the top sellers in the Amazon marketplace in the U.S., 95% of China-based sellers use FBA, compared to 65% for other sellers. Domestic sellers transitioned to fulfill their orders from owned warehouses because Amazon prioritized essential items, baring sellers from shipping new inventory to FBA. International sellers couldn’t make the same change as fast.
+
+[Read more at Marketplace Pulse] (https://www.marketplacepulse.com/articles/chinese-sellers-on-amazon-losing-ground)

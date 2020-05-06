@@ -22,7 +22,7 @@ class Popup extends Component {
         <div className="taCenter">
           <h3> Simple Popup Example</h3>
           <div class="Button" onClick={this.togglePopup.bind(this)}>
-            Click To Launch Popup
+            Is your organization effectively leveraging technology for growth?
           </div>
         </div>
 
