@@ -25,7 +25,7 @@ export const convertServicesToPostFormat = (services) => {
 }
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordion, posts, services }) => (
+export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordion, posts, services, projects }) => (
     <main className="Home">
         <PageHeader
             large
@@ -67,13 +67,20 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
             </section>
         )}
 
+        {!!projects.length && (
+            <section className="section">
+                <div className="container">
+                    <PostSection title="Our Projects" posts={projects} />
+                </div>
+            </section>
+        )}
 
     </main>
 
 )
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { page, posts, services } }) => (
+const HomePage = ({ data: { page, posts, services, projects } }) => (
     <Layout meta={page.frontmatter.meta || false}>
         <HomePageTemplate
             {...page}
@@ -86,6 +93,11 @@ const HomePage = ({ data: { page, posts, services } }) => (
             }))}
             services={services.edges.map(service => ({
                 ...service.node
+            }))}
+            projects={projects.edges.map(project => ({
+                ...project.node,
+                ...project.node.frontmatter,
+                ...project.node.fields
             }))}
         />
     </Layout>
@@ -146,6 +158,29 @@ export const pageQuery = graphql`
                 originalSrc
             }
             handle
+        }
+      }
+    }
+
+    projects: allMarkdownRemark(
+      limit: 3
+      filter: { fields: { contentType: { eq: "projects" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            date(formatString: "MMMM YYYY")
+            categories {
+              category
+            }
+            featuredImage
+          }
         }
       }
     }
