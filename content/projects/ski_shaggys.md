@@ -1,5 +1,5 @@
 ---
-template: ComponentsPage
+template: ProjectPage
 slug: customer-research-data-analysis
 client: Shaggy's Copper Country Skis
 url: https://www.skishaggys.com/

@@ -1,5 +1,5 @@
 ---
-template: ComponentsPage
+template: ProjectPage
 slug: shopify-development-wholesale
 client: Shakawear
 url: https://shakawear.com

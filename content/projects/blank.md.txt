@@ -1,0 +1,43 @@
+---
+template: ProjectPage
+slug:
+client:
+url:
+title:
+featuredImage: ../images/
+subtitle:
+tags:
+ -
+ -
+ -
+date: 2020-03-01
+section1: >-
+  ##
+
+  After successfully operating for 21 years without any ecommerce, Tee Styled came to us looking to develop a solution to sell both to their current wholesale customer, as well as open a new sales channel to sell direct to customers.
+
+section2:
+
+accordion:
+  - description: Shopify, Liquid, Klaviyo, Google Analytics, Google Sheets
+    title: Platforms & technologies
+  - description: Wholesale section includes application form, approve/deny process, custom discounts & tiered pricing. Retail section allows company to sell to a new customer segment.
+    title: Wholesale & retail channels
+  - description: Site management is simple via the Shopify admin and automated integrations with Klaviyo for email marketing.
+    title: Simple backend management
+  - description: Inventory updates may be easily managed via a Google Sheets integration
+    title: Easy inventory updates
+gallery:
+  - alt:
+    image: ../images/123.jpg
+    title:
+  - alt:
+    image: ../images/
+    title:
+  - alt:
+    image: ../images/123.jpg
+    title: 
+meta:
+  description:
+  title:
+---
