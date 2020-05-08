@@ -178,7 +178,9 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            client
             date(formatString: "MMMM YYYY")
+            excerpt: client
             categories {
               category
             }

@@ -29,7 +29,7 @@ export const ProjectIndexTemplate = ({
 }) => (
   <Location>
     {({ location }) => {
-      
+
       return (
         <main className="Blog">
           <PageHeader
@@ -98,13 +98,13 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt
           fields {
             slug
           }
           frontmatter {
             title
-            date(formatString: "dddd MMMM DD, YYYY")
+            excerpt: client
+            date(formatString: "MMMM YYYY")
             categories {
               category
             }

@@ -24,7 +24,7 @@ const PostCard = ({
     <div className="PostCard--Content">
       {title && <h3 className="PostCard--Title">{title}</h3>}
       <div className="PostCard--Category">
-      {date} <br/>
+      Client: {client} | {date}  <br/>
 
 
       </div>
