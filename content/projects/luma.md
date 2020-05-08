@@ -4,7 +4,7 @@ slug: woocommerce conversion rate optimization
 client: Luma Therapeurtics / illuvinate
 url: https://illuvinate.com
 title: Woocommerce conversion rate optimization for online prescriptions
-featuredImage: ../images/shopify_development_apparel.jpg
+featuredImage: ../images/woocommerce-conversion-rate-optimization.jpg
 subtitle: We worked with the Luma Therapeurtics team to develop and optmize an online prescription process for an innovative healthcare product
 tags:
  - healthcare
