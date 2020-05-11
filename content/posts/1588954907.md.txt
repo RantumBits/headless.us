@@ -1,0 +1,22 @@
+---
+template: SinglePost
+title: 'The Fourth Great Unlock'
+status: Published
+date: 2020-05-08T17:32:09-07:00
+tags:
+ - '*ecommerce'
+ -
+ -
+featuredImage: 'https://ecomloop.com/images/1588954907.jpg'
+excerpt: >-
+ 
+categories:
+  - category: Shared Links
+---
+
+
+From Prof Galloway on 2020 05 08
+> Bezos told investors that the $4 billion in profits they were expecting would be reinvested. The investment had a theme: Covid-19. Specifically, Bezos outlined a vision for at-home Covid tests, plasma donors, PPE equipment, distancing, additional compensation, and protocols to adapt to a new world. Jeff Bezos is developing the earth’s first “vaccinated” supply chain.
+The genius here is breathtaking. Walmart can’t follow, as they don’t own their distribution for last-mile commerce. Outside of Walmart, few firms have the balance sheet to pull this off. Maybe FedEx, UPS, or Prologis? But it’s unlikely they could make this sort of investment, this fast — it would be perceived as reckless.
+
+[Read more at Prof Galloway] (https://www.profgalloway.com/the-fourth-great-unlock/)
