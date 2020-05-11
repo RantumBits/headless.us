@@ -89,7 +89,7 @@ export class Navigation extends Component {
             <NavLink to="/blog/">Blog</NavLink>
             <NavLink to="/about/">About</NavLink>
 
-            <NavLink to="/contact/" className="Nav--CTA animated rubberBand slow delay-5s">Get in touch</NavLink>
+            <NavLink to="/email-signup/" className="Nav--CTA animated rubberBand slow delay-5s">Get free insights</NavLink>
           </div>
           <button
             className="Nav--MenuButton"
