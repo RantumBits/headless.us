@@ -1,6 +1,6 @@
 ---
 template: FormPage
-slug: digital-commerce-growth
+slug: get-started
 title: Grow with digital commerce
 subtitle: Get free insights and customized tips to help independent businesses succeed in digital commerce
 featuredImage: '../images/ecomloop_ecommerce_development_notes.png'
