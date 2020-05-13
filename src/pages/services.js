@@ -9,7 +9,7 @@ const ServicesPage = () => (
   <Layout>
     <PageHeader
       title="ecommerce agency services"
-      subtitle="ecommerce agencey services are designed to get started right away & identify actionable next steps"
+      subtitle="ecommerce agencey services are designed to get started right away and identify actionable next steps"
       backgroundImage='../images/ecoomloop_clock_leverage.png'
     />
     <section className="section">
