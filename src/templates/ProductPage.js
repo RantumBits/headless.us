@@ -6,6 +6,7 @@ import { ChevronLeft } from 'react-feather'
 import PageHeader from '../components/PageHeader'
 import Layout from '../components/Layout'
 import ProductForm from '../components/ProductForm'
+import ProductGalleryThumbnails from '../components/ProductGalleryThumbnails'
 
 import './ProductPage.css'
 
@@ -31,13 +32,7 @@ const ProductPage = ({ data }) => {
                             </h1>
                         )}
 
-                        {product.images.map(image => (
-                            <Image
-                                fluid={image.localFile.childImageSharp.fluid}
-                                key={image.id}
-                                alt={product.title}
-                            />
-                        ))}
+                        <ProductGalleryThumbnails productimages={product.images} />
 
                         <div className="SingleService--InnerContent">
                         <ProductForm product={product} />

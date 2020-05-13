@@ -29,19 +29,19 @@ const LineItem = props => {
 
     return (
         <>
-            <br />
-            <p>
-                {variantImage}
-                {`  `}
-                {line_item.title}
-                {`  `}
-                Qty : {line_item.quantity}
-                {`  `}
-                <button
+            <div className="Cart--row">
+                <div className="Cart--cell"><span className="Cart--Thumbnail">{variantImage}</span></div>
+                <div className="Cart--cell">{line_item.title}</div>
+                <div className="Cart--cell">{line_item.variant.selectedOptions[0].value}</div>
+                <div className="Cart--cell">{line_item.quantity}</div>
+                <div className="Cart--cell">${line_item.variant.price}</div>
+                <div className="Cart--cell">${line_item.quantity*line_item.variant.price}</div>
+                <div className="Cart--cell"><button
                     className="Button"
                     style={{ background: "var(--midGrey)", color: "var(--secondary)" }}
                     onClick={handleRemove}>Remove</button>
-            </p>
+                </div>
+            </div>            
         </>
     )
 }

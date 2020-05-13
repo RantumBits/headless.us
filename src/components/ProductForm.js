@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect, useCallback } from 'react'
 import find from 'lodash/find'
 import isEqual from 'lodash/isEqual'
 import PropTypes from 'prop-types'
-
+import './Form.css'
 import StoreContext from '../context/StoreContext'
 
 const ProductForm = ({ product }) => {
@@ -43,16 +43,11 @@ const ProductForm = ({ product }) => {
     }, [productVariant, checkAvailability, product.shopifyId])
 
     const handleQuantityChange = ({ target }) => {
-        console.log("******* handleQuantityChange")
-        console.log(target.value)
-
         setQuantity(target.value)
     }
 
     const handleOptionChange = (optionIndex, { target }) => {
         const { value } = target
-        console.log("******* handleOptionChange")
-        console.log(value)
         const currentOptions = [...variant.selectedOptions]
 
         currentOptions[optionIndex] = {
@@ -114,11 +109,12 @@ const ProductForm = ({ product }) => {
         <>
             {options.map(({ id, name, values }, index) => (
                 <React.Fragment key={id}>
+                  <label className='Form--Label has-arrow'>
                     <select
                         name={name}
+                        className="Form--Input Form--Select"
                         key={id}
                         onChange={event => handleOptionChange(index, event)}
-                        style={{display: "none"}}
                     >
                         {values.map(value => (
                             <option
@@ -130,6 +126,7 @@ const ProductForm = ({ product }) => {
                             </option>
                         ))}
                     </select>
+                  </label>
                 </React.Fragment>
             ))}
             <input
