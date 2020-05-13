@@ -70,8 +70,8 @@ const ProductForm = ({ product }) => {
     const handleAddToCart = () => {
         let addCartReturn = addVariantToCart(productVariant.shopifyId, quantity)
         addCartReturn.then(function(){
-            window.open(checkout.webUrl)
-            //window.open("/cart","_self")
+            //window.open(checkout.webUrl)
+            window.open("/cart","_self")
         });
     }
 

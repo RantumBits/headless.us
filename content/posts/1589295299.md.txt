@@ -1,0 +1,22 @@
+---
+template: SinglePost
+title: 'Amazon Recovers From Essentials-Only'
+status: Published
+date: 2020-05-12T09:20:41-07:00
+tags:
+ - '*ecommerce'
+ -
+ -
+featuredImage: 'https://ecomloop.com/images/1589295299.jpg'
+excerpt: >-
+ Amazon is now accepting inventory across all categories at FBA warehouses. Previously restricted to ‘essentials’. All items are not yet back to 2-day prime delivery. 
+categories:
+  - category: Shared Links
+---
+Amazon is now accepting inventory across all categories at FBA warehouses. Previously restricted to ‘essentials’. All items are not yet back to 2-day prime delivery. 
+
+From Marketplace Pulse on 2020 05 12
+> Amazon has opened its warehouses to all items and reintroduced shopping functionality like deals and recommendations. Fast shipping for non-essentials is back, too, crucially.
+
+
+[Read more at Marketplace Pulse] (https://www.marketplacepulse.com/articles/amazon-recovers-from-essentials-only)
