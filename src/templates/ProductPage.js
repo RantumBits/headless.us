@@ -40,8 +40,9 @@ const ProductPage = ({ data }) => {
                         ))}
 
                         <div className="SingleService--InnerContent">
+                        <ProductForm product={product} />
                             <div dangerouslySetInnerHTML={{ __html: product.descriptionHtml }} />
-                            <ProductForm product={product} />
+
                         </div>
 
                         <div className="SingleService--Pagination">
@@ -136,6 +137,6 @@ export const pageQuery = graphql`
         }
       }
     }
-  
+
   }
 `
