@@ -2,7 +2,7 @@
   "name": "carraway",
   "HomePage": "https://github.com/ecomloop/carraway/",
   "description": "the shopify + gatsby starter theme for digital commerce",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/ecomloop/carraway"

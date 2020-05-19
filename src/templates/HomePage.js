@@ -45,24 +45,18 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
         {!!services.length && convertServicesToPostFormat(services) && (
             <section className="section">
                 <div className="container">
-                    <PostSection title="Leverage technology more effectively - starting today" posts={convertServicesToPostFormat(services)}/>
+                    <PostSection title="demo shop" posts={convertServicesToPostFormat(services)}/>
                 </div>
             </section>
         )}
 
 
 
-        {!!projects.length && (
-            <section className="section">
-                <div className="container">
-                    <PostSection title="Our Projects" posts={projects} />
-                </div>
-            </section>
-        )}
+
         <section className="section">
             <div className="container">
-                <PostSection title="Partners in your digital commerce success"/>
-                <Accordion title="Clients are our partners" items={accordion} />
+                <PostSection title="carraway features"/>
+                <Accordion title="carraway features" items={accordion} />
             </div>
         </section>
 
@@ -97,11 +91,7 @@ const HomePage = ({ data: { page, posts, services, projects } }) => (
             services={services.edges.map(service => ({
                 ...service.node
             }))}
-            projects={projects.edges.map(project => ({
-                ...project.node,
-                ...project.node.frontmatter,
-                ...project.node.fields
-            }))}
+            
         />
     </Layout>
 )
@@ -165,30 +155,7 @@ export const pageQuery = graphql`
       }
     }
 
-    projects: allMarkdownRemark(
-      limit: 3
-      filter: { fields: { contentType: { eq: "projects" } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
-    ) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            client
-            date(formatString: "MMMM YYYY")
-            excerpt: client
-            categories {
-              category
-            }
-            featuredImage
-          }
-        }
-      }
-    }
+
 
   }
 `

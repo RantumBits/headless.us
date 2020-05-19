@@ -1,48 +1,33 @@
 ---
 template: HomePage
 slug: ''
-title: We help uncommon businesses succeed in the digital economy
-featuredImage: 'https://ucarecdn.com/7b370943-0401-4b4b-87e8-0150de313e21/'
+title: carraway
+featuredImage: './images/carraway_shopify+gatsby.jpg'
 subtitle: >-
-  ### We're _not_ a typical ecommerce development or marketing agency.
+  ## the shopify + gatsby starter theme for digital commerce
 
-
-  ### Our clients are _not_ traditional businesses confined by physical location.
-
-
-  ### We develop & implement solutions to help uncommon businesses leverage
-  technology effectively.
 accordion:
   - content: >-
-      ecomloop does exceptional work and was a big part of our success. We will be using him for more projects in the future.
-
-      - Duffy Supply Company(http://duffysupply.com/)
-    title: "exceptional work and a big part of our success"
+      [GatsbyJS](https://www.gatsbyjs.com/) is on the cutting edge of modern website frameworks, with performance & security of utmost importance. Deliver a better experience to your customers with a blazing fast site.
+    title: get a blazing fast, super-secure site using Gatsby
   - content: >-
-      Ecomloop was a pleasure to work with. They were able to deliver on the job, building us a new product detail page for our Shopify site. They weres communicative and patient and went above and beyond to deliver on our expectations. I would definitely work with Andrew again.
-      - [Pour Vida Coffee](https://pourvida.com)
-    title: "went above and beyond to deliver on our expectations"
+      [Shopify](https://www.shopify.com/?ref=ecomloop) provides an incredible ecommerce platform for busineses of all sizes. Manage products and orders from Shopify, while delivering via a Gatsby site.
+    title: manage orders & products in shopify
   - content: >-
-      ecomloop is great to work with. Great communication, very detail oriented, major skills, couldn't be happier with their leadership in developing a shopify store. The store that we are building has an increasing number of components that are being constantly added and Andrew is able to utilize and incorporate a number of apps to get the job done. He's also a very creative problem solver and has come up with novel solutions along the way.
-      - SkipTheBookstore(https://skipthebookstore.com)
-    title: great communication, very detail oriented, major skills
+      Headless ecommerce enables businesses to sell anywhere, while managing products and inventory in the backend. Think of it as a way of having multiple digital storefronts from one backend system. Gatsby provides opportunities to add new headless commerce experiences for any Shopify store.
+    title: headless commerce for shopify
   - content: >-
-      ecomloop was a pleasure to work with. They were able to deliver on the job, building us a new product detail page for our Shopify site. They were communicative and patient and went above and beyond to deliver on our expectations. I would definitely work with ecomloop again.
-        - Davka Sandals(https://davkasandals.com)
-    title: "went above and beyond to deliver on our expectations"
+      This gatsby starter is designed for existing shopify stores to get started quickly. [download on github](https://github.com/ecomloop/carraway) or [deploy to netlify](https://app.netlify.com/start/deploy?repository=https://github.com/ecomloop/carraway)
+    title: download theme for free (today!)
 meta:
   description: >-
-    Ecomloop is a boutique digital agency that helps businesses succeed in the
-    digital economy. Business is changing - and we can help your business find
-    the right path and seize your opportunity.
-  title: ecomloop - digital economy solutions for uncommon businesses
+    the shopify + gatsby starter theme for digital commerce
+  title: carraway = shopify + gatsby
 ---
-## Is your organization effectively leveraging technology for growth?
 
-The world is moving to a digital economy at a faster rate than ever before. Well-implemented technology helps empower organizations to overcome limitations imposed by the traditional, physical economy.
 
-In the digital economy, nearly everyone has access to the same services, goods and tools. With reputation & trust built and displayed publicly, only the best survive.
+##Carraway is a Gatsby starter theme for Shopify
 
-It's crucial for business be *uncommon* by serving the core of segment of their audience in an exceptional manner.
+<a href="https://github.com/ecomloop/carraway/" target="_blank" aria-label="Fork ecomloop/carraway on GitHub" class="Nav--CTA">get it on Github</a>
 
-Don't let technology inefficiencies limit your organization's opportunities.
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/ecomloop/carraway" target="_blank" aria-label="Fork ecomloop/carraway on GitHub" class="Nav--CTA">Deploy to Netlify</a>
