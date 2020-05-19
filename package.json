@@ -1,11 +1,11 @@
 {
-  "name": "gatsbify",
-  "HomePage": "https://ecomloop.com/",
-  "description": "the shopify + gatsby starter theme",
-  "version": "0.1",
+  "name": "carraway",
+  "HomePage": "https://github.com/ecomloop/carraway/",
+  "description": "the shopify + gatsby starter theme for digital commerce",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
-    "url": "https://github.ecomloop/gatsbify"
+    "url": "https://github.com/ecomloop/carraway"
   },
   "dependencies": {
     "@fs/gatsby-plugin-drive": "^0.2.1",
@@ -14,7 +14,7 @@
     "core-js": "^3.6.4",
     "dom-form-serializer": "^1.0.7",
     "gatsby": "^2.17.7",
-    "gatsby-cli": "^2.12.16",
+    "gatsby-cli": "^2.12.22",
     "gatsby-image": "^2.2.30",
     "gatsby-plugin-feed": "^2.5.0",
     "gatsby-plugin-google-tagmanager": "^2.1.15",

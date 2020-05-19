@@ -1,14 +1,7 @@
-siteTitle: ecomloop - we help uncommon businesses succeed in the digital economy
-siteUrl: 'https://ecomloop.com'
+siteTitle: carrayway  - the shopify + gatsby starter theme for digital commerce
+siteUrl: 'https://github.com/ecomloop/carraway'
 siteDescription: >-
-  ecomloop helps uncommon businesses succeed in the digital economy. 
-
-  We're not a typical ecommerce development or marketing agency.
-
-  Our clients are not traditional businesses confined by physical location.
-
-  We develop custom technology solutions to help uncommon businesses succeed in
-  the digital economy.
+  the shopify + gatsby starter theme for digital commerce
 socialMediaCard:
   image: 'https://ucarecdn.com/8f7e891c-4c89-4598-aa98-cd85f21c9ac1/'
 googleTrackingId: UA-86276502-1

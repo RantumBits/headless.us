@@ -7,34 +7,11 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'ecomloop',
-    description: 'We help uncommon businesses succeed in the digital economy',
-    siteUrl: 'https://ecomloop.com'
+    title: 'carraway',
+    description: 'the shopify + gatsby starter theme for digital commerce',
+    siteUrl: 'https://github.com/ecomloop/carraway'
   },
-  plugins: [
-    'gatsby-plugin-react-helmet',
-    {
-    resolve: '@fs/gatsby-plugin-drive',
-    options: {
-      folderId: '1xSLqG_faTddDwktmKdgD8-lxRcvgiIWT',
-      keyFile: `${__dirname}/client_secret.json`,
-      destination: `${__dirname}/content/posts`,
-      exportGDocs: false,
-      exportMimeType: ''
-    }
-    },
-    'gatsby-plugin-react-helmet',
-    {
-    resolve: '@fs/gatsby-plugin-drive',
-    options: {
-      folderId: '1ZUcbDFOxg7UEjyy0f-xmqf7ZGgUkM4rE',
-      keyFile: `${__dirname}/client_secret.json`,
-      destination: `${__dirname}/static/images`,
-      exportGDocs: false,
-      exportMimeType: ''
-      }
-    },
-    'gatsby-transformer-yaml',
+  plugins: [    'gatsby-transformer-yaml',
     {
       resolve: `gatsby-source-shopify`,
       options: {
@@ -107,7 +84,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Ecomloop Site's RSS Feed",
+            title: "RSS Feed",
           },
         ],
       },
