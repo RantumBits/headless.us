@@ -26,8 +26,8 @@ meta:
 ---
 
 
-##Carraway is a Gatsby starter theme for Shopify
+##Headless commerce for Shopify with GatsbyJS
 
-<a href="https://github.com/ecomloop/carraway/" target="_blank" aria-label="Fork ecomloop/carraway on GitHub" class="Nav--CTA">get it on Github</a>
+<a href="https://github.com/ecomloop/carraway/" target="_blank" aria-label="Fork ecomloop/carraway on GitHub" class="Nav--CTA">download on Github</a>
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/ecomloop/carraway" target="_blank" aria-label="Fork ecomloop/carraway on GitHub" class="Nav--CTA">Deploy to Netlify</a>

@@ -87,9 +87,9 @@ export class Navigation extends Component {
             <NavLink to="/services/">Shop</NavLink>
 
             <NavLink to="/blog/">Blog</NavLink>
-            <NavLink to="/about/">About</NavLink>
 
-            <NavLink to="/get-started/" className="Nav--CTA animated rubberBand slow delay-5s">Get started today</NavLink>
+
+            <a href="https://github.com/ecomloop/carraway/" target="_blank" aria-label="Fork ecomloop/carraway on GitHub" class="Nav--CTA">download on github</a>
           </div>
           <button
             className="Nav--MenuButton"
