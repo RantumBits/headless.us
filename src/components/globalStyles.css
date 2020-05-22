@@ -1,9 +1,9 @@
 :root {
-  --primary: #00c2bd;
-  --secondary: #000;
+  --primary: #09BC8A;
+  --secondary: #004346;
   --lightGrey: whitesmoke;
-  --midGrey: #cacaca;
-  --darkGrey: #272727;
+  --midGrey: #004346;
+  --darkGrey: #004346;
   --danger: #ff3d3d;
   --font-primary: 'Monteserrat Medium', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
@@ -26,7 +26,7 @@
   background: rgba(0, 194, 189, 0.6);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@577&family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Jost:ital,wght@0,300;1,700&display=swap');
 
 
 html {
@@ -37,7 +37,7 @@ html {
 }
 
 body {
-  font-family: 'Inconsolata', monospace;
+font-family: 'DM Mono', monospace;
   min-height: 100%;
   position: relative;
   background: white;
@@ -67,14 +67,15 @@ h1, h2
 {
   margin: 0;
   margin-bottom: 0.5em;
-  font-family: 'Monteserrat', sans-serif;
+font-family: 'Jost', sans-serif;
+font-wegiht:700;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'DM Mono', monospace;
 }
 
 pre {
