@@ -1,12 +1,11 @@
 ---
 template: BlogIndex
 slug: blog
-title: ecomloop blog
-featuredImage: '../images/ecomloop_ecommerce_development_header_wall.png'
-subtitle: thoughts on digital commerce, technology & independent business
+title: blog
+featuredImage: ''
+subtitle: Dazzling posts about innovative Shopify+GatsbyJS stores
 meta:
   description: >-
-    thoughts on digital commerce, technology & independent businesses. a blog about technology, ecommerce, new
-    business models and what it takes to succeed in the digital economy.
-  title: ecomloop blog
+    publish fancy posts about your shopify store here
+  title: blog
 ---

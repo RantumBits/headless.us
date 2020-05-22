@@ -55,8 +55,8 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordi
 
         <section className="section">
             <div className="container">
-                <PostSection title="carraway features"/>
-                <Accordion title="carraway features" items={accordion} />
+                <PostSection title="features"/>
+                <Accordion title="features" items={accordion} />
             </div>
         </section>
 
@@ -91,7 +91,7 @@ const HomePage = ({ data: { page, posts, services, projects } }) => (
             services={services.edges.map(service => ({
                 ...service.node
             }))}
-            
+
         />
     </Layout>
 )

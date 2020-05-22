@@ -2,10 +2,10 @@
   --primary: #09BC8A;
   --secondary: #004346;
   --lightGrey: whitesmoke;
-  --midGrey: #004346;
+  --midGrey: #09BC8A;
   --darkGrey: #004346;
   --danger: #ff3d3d;
-  --font-primary: 'Monteserrat Medium', sans-serif;
+  --font-primary: 'DM Mono', monospace;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
 }

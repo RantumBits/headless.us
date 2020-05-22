@@ -1,4 +1,4 @@
-# carraway
+# headless
 ## the shopify + gatsby starter theme for digital commerce
 
 
@@ -11,7 +11,7 @@ We help uncommon businesses succeed in the digital economy
 
 ```sh
 # Create a new Gatsby site using the Lumen starter
-gatsby new shop https://github.com/ecomloop/carraway
+gatsby new shop https://github.com/ecomloop/headless
 ```
 
 #### Start Developing
@@ -27,7 +27,7 @@ gatsby develop
 
 Use the button below to build and deploy your own copy of the repository:
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/ecomloop/carraway" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/ecomloop/headless" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
 After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
 
