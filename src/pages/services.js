@@ -8,7 +8,7 @@ import ProductGrid from '../components/ProductGrid'
 const ServicesPage = () => (
   <Layout>
     <PageHeader
-      title="the carraway demo store"
+      title="shop the demo store"
       subtitle="check out the aweswome products"
       backgroundImage='../images/headless_hero.jpg'
     />
