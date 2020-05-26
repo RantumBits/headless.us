@@ -2,7 +2,7 @@
   "name": "headless",
   "HomePage": "https://headless.us",
   "description": "the shopify + gatsby starter theme for digital commerce",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/ecomloop/headless"
