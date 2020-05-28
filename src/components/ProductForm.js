@@ -106,10 +106,11 @@ const ProductForm = ({ product }) => {
     }).format(variant.compareAtPrice)
 
     return (
-        <>
+        <center>
             {options.map(({ id, name, values }, index) => (
                 <React.Fragment key={id}>
-                  <label className='Form--Label has-arrow'>
+                  <label className="Form--Label" style={{width:'33%'}}>{name}</label>
+                  <label className='Form--Label has-arrow' style={{width:'33%'}}>
                     <select
                         name={name}
                         className="Form--Input Form--Select"
@@ -149,10 +150,11 @@ const ProductForm = ({ product }) => {
                 Get Started
             </button>
 
-            <h3>{price}</h3>
-            {productVariant.compareAtPrice && (compareAtPrice != price) && <h3 style={{ textDecoration: "line-through" }}>{compareAtPrice}</h3>}
+            <h3>{price}{`  `}
+            {productVariant.compareAtPrice && (compareAtPrice != price) && <span style={{ textDecoration: "line-through" }}>{compareAtPrice}</span>}
+            </h3>
             {!available && <p>This Product is out of Stock!</p>}
-        </>
+        </center>
     )
 }
 

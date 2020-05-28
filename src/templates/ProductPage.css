@@ -49,8 +49,9 @@
 }
 
 .SingleService--Title {
-  text-align: center;
+  text-align: left;
   line-height: 1.2;
+  font-family: 'Inconsolata', monospace;
 }
 
 .SingleService--InnerContent {

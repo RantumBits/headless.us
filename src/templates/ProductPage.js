@@ -22,22 +22,22 @@ const ProductPage = ({ data }) => {
                 itemType="http://schema.org/BlogPosting"
             >
                 <div className="container skinny">
-                    <Link className="SingleService--BackButton" to="/services/">
+                    <Link className="SingleService--BackButton" to="/solutions/">
                         <ChevronLeft /> BACK
                     </Link>
                     <div className="SingleService--Content relative">
+
+                        <ProductGalleryThumbnails productimages={product.images} />
+
                         {product.title && (
                             <h1 className="SingleService--Title" itemProp="title">
                                 {product.title}
                             </h1>
                         )}
 
-                        <ProductGalleryThumbnails productimages={product.images} />
-
                         <div className="SingleService--InnerContent">
-                        <ProductForm product={product} />
+                            <ProductForm product={product} />
                             <div dangerouslySetInnerHTML={{ __html: product.descriptionHtml }} />
-
                         </div>
 
                         <div className="SingleService--Pagination">
@@ -52,7 +52,7 @@ const ProductPage = ({ data }) => {
                             {thisEdge && thisEdge.next && thisEdge.next.handle && (
                                 <Link
                                     className="SingleService--Pagination--Link next"
-                                    to={`/service/${thisEdge.next.handle}`}
+                                    to={`/solution/${thisEdge.next.handle}`}
                                 >
                                     Next Service
                                 </Link>

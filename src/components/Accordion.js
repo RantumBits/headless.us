@@ -1,6 +1,8 @@
 import React from 'react'
 import ChevronDown from 'react-feather/dist/icons/chevron-down'
 import _kebabCase from 'lodash/kebabCase'
+import remark from 'remark'
+import remarkHTML from 'remark-html'
 import './Accordion.css'
 
 export default class Accordion extends React.Component {
@@ -24,6 +26,7 @@ export default class Accordion extends React.Component {
 
   render() {
     const { items, className } = this.props
+    console.log(items)
     return (
       <div className={`Accordion ${className}`}>
         {!!items &&
@@ -38,7 +41,12 @@ export default class Accordion extends React.Component {
                 <ChevronDown />
               </h2>
               <div className={'description'}>
-                {item.description}{item.content} <br />
+                {item.description}
+                <div dangerouslySetInnerHTML={{ __html: 
+                    remark()
+                    .use(remarkHTML)
+                    .processSync(item.content)
+                    .toString() }} />
                 {item.link && (
                   <div href={item.link} className="button">
                     {item.linkTitle}
