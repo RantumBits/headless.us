@@ -7,93 +7,93 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import Accordion from '../components/Accordion'
 
-export const convertServicesToPostFormat = (services) => {
-    let formattedServices = [];
-    services.map( (service) => {
-        let singleItem = {
-            title: service.title,
-            excerpt: _.truncate(service.description, {
-                length: 140,
-                omission: `…`,
-            }),
-            featuredImage: service.images[0].originalSrc,
-            slug: "/service/"+service.handle,
-        }
-        formattedServices.push(singleItem)
-    });
-    return formattedServices
+export const convertServicesToPostFormat = services => {
+  let formattedServices = []
+  services.map(service => {
+    let singleItem = {
+      title: service.title,
+      excerpt: _.truncate(service.description, {
+        length: 140,
+        omission: `…`,
+      }),
+      featuredImage: service.images[0].originalSrc,
+      slug: '/service/' + service.handle,
+    }
+    formattedServices.push(singleItem)
+  })
+  return formattedServices
 }
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, body, accordion, posts, services, projects }) => (
-    <main className="Home">
-        <PageHeader
-            large
-            title={title}
-            subtitle={subtitle}
-            backgroundImage={featuredImage}
-        />
+export const HomePageTemplate = ({
+  title,
+  subtitle,
+  featuredImage,
+  body,
+  accordion,
+  posts,
+  services,
+  projects,
+}) => (
+  <main className="Home">
+    <PageHeader
+      large
+      title={title}
+      subtitle={subtitle}
+      backgroundImage={featuredImage}
+    />
 
-        <section className="section">
-            <div className="container">
-                <Content source={body} />
-            </div>
-        </section>
+    <section className="section">
+      <div className="container">
+        <Content source={body} />
+      </div>
+    </section>
 
+    {!!services.length && convertServicesToPostFormat(services) && (
+      <section className="section">
+        <div className="container">
+          <PostSection
+            title="demo shop"
+            posts={convertServicesToPostFormat(services)}
+          />
+        </div>
+      </section>
+    )}
 
+    <section className="section">
+      <div className="container">
+        <PostSection title="features" />
+        <Accordion title="features" items={accordion} />
+      </div>
+    </section>
 
-        {!!services.length && convertServicesToPostFormat(services) && (
-            <section className="section">
-                <div className="container">
-                    <PostSection title="demo shop" posts={convertServicesToPostFormat(services)}/>
-                </div>
-            </section>
-        )}
-
-
-
-
-        <section className="section">
-            <div className="container">
-                <PostSection title="features"/>
-                <Accordion title="features" items={accordion} />
-            </div>
-        </section>
-
-        {!!posts.length && (
-            <section className="section">
-                <div className="container">
-                    <PostSection title="Recent Blog Posts" posts={posts} />
-
-                </div>
-
-            </section>
-        )}
-
-
-
-    </main>
-
+    {!!posts.length && (
+      <section className="section">
+        <div className="container">
+          <PostSection title="Recent Blog Posts" posts={posts} />
+        </div>
+      </section>
+    )}
+  </main>
 )
 
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page, posts, services, projects } }) => (
-    <Layout meta={page.frontmatter.meta || false}>
-        <HomePageTemplate
-            {...page}
-            {...page.frontmatter}
-            body={page.html}
-            posts={posts.edges.map(post => ({
-                ...post.node,
-                ...post.node.frontmatter,
-                ...post.node.fields
-            }))}
-            services={services.edges.map(service => ({
-                ...service.node
-            }))}
-
-        />
-    </Layout>
+  <Layout meta={page.frontmatter.meta || false}>
+    <HomePageTemplate
+      {...page}
+      {...page.frontmatter}
+      body={page.html}
+      posts={posts.edges.map(post => ({
+        ...post.node,
+        ...post.node.frontmatter,
+        ...post.node.fields,
+      }))}
+      services={services.edges.map(service => ({
+        ...service.node,
+      }))}
+    />
+  </Layout>
 )
 
 export default HomePage
@@ -141,21 +141,21 @@ export const pageQuery = graphql`
       }
     }
 
-    services: allShopifyProduct(sort: {fields: publishedAt, order: DESC}, limit: 3) {
+    services: allShopifyProduct(
+      sort: { fields: publishedAt, order: DESC }
+      limit: 3
+    ) {
       edges {
         node {
-            id
-            title
-            description
-            images {
-                originalSrc
-            }
-            handle
+          id
+          title
+          description
+          images {
+            originalSrc
+          }
+          handle
         }
       }
     }
-
-
-
   }
 `

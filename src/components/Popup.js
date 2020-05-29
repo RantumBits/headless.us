@@ -11,7 +11,7 @@ class Popup extends Component {
 
   togglePopup() {
     this.setState({
-      showPopup: !this.state.showPopup
+      showPopup: !this.state.showPopup,
     })
   }
 
@@ -20,7 +20,9 @@ class Popup extends Component {
     return (
       <Fragment>
         <div className="taCenter">
-          <h3>Is your organization effectively leveraging technology for growth?</h3>
+          <h3>
+            Is your organization effectively leveraging technology for growth?
+          </h3>
           <div class="Button" onClick={this.togglePopup.bind(this)}>
             Get in touch
           </div>

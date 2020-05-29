@@ -10,7 +10,7 @@ export class Navigation extends Component {
   state = {
     active: false,
     activeSubNav: false,
-    currentPath: false
+    currentPath: false,
   }
 
   componentDidMount = () =>
@@ -23,7 +23,7 @@ export class Navigation extends Component {
 
   toggleSubNav = subNav =>
     this.setState({
-      activeSubNav: this.state.activeSubNav === subNav ? false : subNav
+      activeSubNav: this.state.activeSubNav === subNav ? false : subNav,
     })
 
   render() {
@@ -49,7 +49,6 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-
             {/*
             <div
               className={`Nav--Group ${
@@ -88,13 +87,19 @@ export class Navigation extends Component {
 
             <NavLink to="/blog/">Blog</NavLink>
 
-
-            <a href="https://github.com/ecomloop/carraway/" target="_blank" aria-label="Fork ecomloop/carraway on GitHub" class="Nav--CTA">download on github</a>
+            <a
+              href="https://github.com/ecomloop/carraway/"
+              target="_blank"
+              aria-label="Fork ecomloop/carraway on GitHub"
+              class="Nav--CTA"
+            >
+              download on github
+            </a>
           </div>
           <button
             className="Nav--MenuButton"
             onClick={this.handleMenuToggle}
-            to='/home'
+            to="/home"
           >
             {active ? <X /> : <Menu />}
           </button>

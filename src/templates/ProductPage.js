@@ -11,58 +11,61 @@ import ProductGalleryThumbnails from '../components/ProductGalleryThumbnails'
 import './ProductPage.css'
 
 const ProductPage = ({ data }) => {
-    const product = data.shopifyProduct
-    const thisEdge = data.allServices.edges.find(edge => edge.node.id === product.id);
+  const product = data.shopifyProduct
+  const thisEdge = data.allServices.edges.find(
+    edge => edge.node.id === product.id
+  )
 
-    return (
-        <Layout title={product.title || false}>
-            <article
-                className="SingleService section light"
-                itemScope
-                itemType="http://schema.org/BlogPosting"
-            >
-                <div className="container skinny">
-                    <Link className="SingleService--BackButton" to="/solutions/">
-                        <ChevronLeft /> BACK
-                    </Link>
-                    <div className="SingleService--Content relative">
+  return (
+    <Layout title={product.title || false}>
+      <article
+        className="SingleService section light"
+        itemScope
+        itemType="http://schema.org/BlogPosting"
+      >
+        <div className="container skinny">
+          <Link className="SingleService--BackButton" to="/solutions/">
+            <ChevronLeft /> BACK
+          </Link>
+          <div className="SingleService--Content relative">
+            <ProductGalleryThumbnails productimages={product.images} />
 
-                        <ProductGalleryThumbnails productimages={product.images} />
+            {product.title && (
+              <h1 className="SingleService--Title" itemProp="title">
+                {product.title}
+              </h1>
+            )}
 
-                        {product.title && (
-                            <h1 className="SingleService--Title" itemProp="title">
-                                {product.title}
-                            </h1>
-                        )}
+            <div className="SingleService--InnerContent">
+              <ProductForm product={product} />
+              <div
+                dangerouslySetInnerHTML={{ __html: product.descriptionHtml }}
+              />
+            </div>
 
-                        <div className="SingleService--InnerContent">
-                            <ProductForm product={product} />
-                            <div dangerouslySetInnerHTML={{ __html: product.descriptionHtml }} />
-                        </div>
-
-                        <div className="SingleService--Pagination">
-                            {thisEdge && thisEdge.previous && thisEdge.previous.handle && (
-                                <Link
-                                    className="SingleService--Pagination--Link prev"
-                                    to={`/service/${thisEdge.previous.handle}`}
-                                >
-                                    Previous Service
-                                </Link>
-                            )}
-                            {thisEdge && thisEdge.next && thisEdge.next.handle && (
-                                <Link
-                                    className="SingleService--Pagination--Link next"
-                                    to={`/solution/${thisEdge.next.handle}`}
-                                >
-                                    Next Service
-                                </Link>
-                            )}
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </Layout >
-    )
+            <div className="SingleService--Pagination">
+              {thisEdge && thisEdge.previous && thisEdge.previous.handle && (
+                <Link
+                  className="SingleService--Pagination--Link prev"
+                  to={`/service/${thisEdge.previous.handle}`}
+                >
+                  Previous Service
+                </Link>
+              )}
+              {thisEdge && thisEdge.next && thisEdge.next.handle && (
+                <Link
+                  className="SingleService--Pagination--Link next"
+                  to={`/solution/${thisEdge.next.handle}`}
+                >
+                  Next Service
+                </Link>
+              )}
+            </div>
+          </div>
+        </div>
+      </article>
+    </Layout>
+  )
 }
 
 export default ProductPage
@@ -117,7 +120,7 @@ export const pageQuery = graphql`
       }
     }
 
-    allServices: allShopifyProduct(sort: {fields: publishedAt, order: DESC}) {
+    allServices: allShopifyProduct(sort: { fields: publishedAt, order: DESC }) {
       edges {
         node {
           id
@@ -132,6 +135,5 @@ export const pageQuery = graphql`
         }
       }
     }
-
   }
 `

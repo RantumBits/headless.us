@@ -24,13 +24,9 @@ const PostCard = ({
     <div className="PostCard--Content">
       {title && <h3 className="PostCard--Title">{title}</h3>}
       <div className="PostCard--Category">
-      Client: {client} | {date}  <br/>
-
-
+        Client: {client} | {date} <br />
       </div>
-      <div className="PostCard--Date">
-
-      </div>
+      <div className="PostCard--Date"></div>
       {excerpt && <div className="PostCard--Excerpt">{excerpt}</div>}
     </div>
   </Link>

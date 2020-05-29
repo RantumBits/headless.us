@@ -53,8 +53,8 @@ exports.createPages = ({ actions, graphql }) => {
           ),
           // additional data can be passed via context
           context: {
-            id
-          }
+            id,
+          },
         })
       })
     })
@@ -71,19 +71,18 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     `).then(result => {
-        result.data.allShopifyProduct.edges.forEach(({ node }) => {
+      result.data.allShopifyProduct.edges.forEach(({ node }) => {
         createPage({
-            path: `/service/${node.handle}/`,
-            component: path.resolve(`./src/templates/ProductPage.js`),
-            context: {
+          path: `/service/${node.handle}/`,
+          component: path.resolve(`./src/templates/ProductPage.js`),
+          context: {
             // Data passed to context is available
             // in page queries as GraphQL variables.
             handle: node.handle,
-            },
+          },
         })
-        })
+      })
     })
-
   })
 }
 
@@ -121,18 +120,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       node,
       name: 'slug',
-      value: slug
+      value: slug,
     })
 
     // Add contentType to node.fields
     createNodeField({
       node,
       name: 'contentType',
-      value: parsedFilePath.dir
+      value: parsedFilePath.dir,
     })
   }
 }
-
 
 // Random fix for https://github.com/gatsbyjs/gatsby/issues/5700
 module.exports.resolvableExtensions = () => ['.json']

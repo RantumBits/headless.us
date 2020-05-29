@@ -18,7 +18,7 @@ export const FormPageTemplate = ({
   address,
   phone,
   email,
-  locations
+  locations,
 }) => (
   <main className="Contact">
     <PageHeader
@@ -36,8 +36,6 @@ export const FormPageTemplate = ({
         </div>
       </div>
     </section>
-
-
   </main>
 )
 

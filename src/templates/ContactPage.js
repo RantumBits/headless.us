@@ -18,7 +18,7 @@ export const ContactPageTemplate = ({
   address,
   phone,
   email,
-  locations
+  locations,
 }) => (
   <main className="Contact">
     <PageHeader

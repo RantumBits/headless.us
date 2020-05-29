@@ -9,16 +9,16 @@ class Form extends React.Component {
   static defaultProps = {
     name: 'contact_form',
     subject: 'success - form submitted', // optional subject of the notification email
-    action: "https://getform.io/f/93249524-1fb5-46d8-b6e2-7c5a0ecf42e0",
-    action: "/success.html",
+    action: 'https://getform.io/f/93249524-1fb5-46d8-b6e2-7c5a0ecf42e0',
+    action: '/success.html',
     successMessage: 'Good to hear from you! We will get back to you soon.',
     errorMessage:
-      'There is a problem and your message has *not* been sent. Please send an email to hello@ecomloop.com'
+      'There is a problem and your message has *not* been sent. Please send an email to hello@ecomloop.com',
   }
 
   state = {
     alert: '',
-    disabled: false
+    disabled: false,
   }
 
   handleSubmit = e => {
@@ -29,7 +29,7 @@ class Form extends React.Component {
     const data = serialize(form)
     this.setState({ disabled: true })
     fetch(form.action + '?' + stringify(data), {
-      method: 'POST'
+      method: 'POST',
     })
       .then(res => {
         if (res.ok) {
@@ -42,14 +42,14 @@ class Form extends React.Component {
         form.reset()
         this.setState({
           alert: this.props.successMessage,
-          disabled: false
+          disabled: false,
         })
       })
       .catch(err => {
         console.error(err)
         this.setState({
           disabled: false,
-          alert: this.props.errorMessage
+          alert: this.props.errorMessage,
         })
       })
   }
@@ -68,8 +68,8 @@ class Form extends React.Component {
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify='true'
-          netlify-recaptcha='true'
+          data-netlify="true"
+          netlify-recaptcha="true"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>

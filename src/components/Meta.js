@@ -28,7 +28,7 @@ export default class Meta extends Component {
       canonicalLink,
       siteTitle,
       siteDescription,
-      googleTrackingId
+      googleTrackingId,
       // overwrite { title, description } if in fields or fields.meta
     } = this.props
 
@@ -59,7 +59,6 @@ export default class Meta extends Component {
         <meta property="og:image:secure_url" content={absoluteImageUrl} />
         <meta property="og:image" content={absoluteImageUrl} />
         <meta name="twitter:card" content={absoluteImageUrl} />
-        
 
         {googleTrackingId && (
           <script

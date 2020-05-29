@@ -8,7 +8,7 @@ import './Accordion.css'
 export default class Accordion extends React.Component {
   static defaultProps = {
     items: [],
-    className: ''
+    className: '',
   }
 
   // use state to auto close but has issues mobile view. onClick={() => this.handleClick(index)}
@@ -42,11 +42,14 @@ export default class Accordion extends React.Component {
               </h2>
               <div className={'description'}>
                 {item.description}
-                <div dangerouslySetInnerHTML={{ __html: 
-                    remark()
-                    .use(remarkHTML)
-                    .processSync(item.content)
-                    .toString() }} />
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: remark()
+                      .use(remarkHTML)
+                      .processSync(item.content)
+                      .toString(),
+                  }}
+                />
                 {item.link && (
                   <div href={item.link} className="button">
                     {item.linkTitle}
