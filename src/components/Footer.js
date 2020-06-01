@@ -7,7 +7,7 @@ export default () => (
       <div className="container taCenter">
         <span>
           ⚒ by{' '}
-          <a href="https://ecomloop.com" target="_blank">
+          <a href="https://ecomloop.com" target="_blank" rel="noopener noreferrer">
             ecomloop
           </a>{' '}
           in 🥑 california

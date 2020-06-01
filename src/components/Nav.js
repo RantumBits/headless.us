@@ -49,7 +49,7 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-            {/*
+            {
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -64,6 +64,9 @@ export class Navigation extends Component {
                     : ''
                 }`}
                 onClick={() => this.toggleSubNav('posts')}
+                onKeyDown={() => this.toggleSubNav('posts')}
+                role="menuitem"
+                tabIndex={0}
               >
                 Blog
                 <div className="Nav--GroupLinks">
@@ -82,14 +85,15 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            */}
+            }
             <NavLink to="/services/">Shop</NavLink>
 
             <NavLink to="/blog/">Blog</NavLink>
 
             <a
-              href="https://github.com/ecomloop/carraway/"
+              href="https://github.com/ecomloop/headless/"
               target="_blank"
+              rel="noopener noreferrer"
               aria-label="Fork ecomloop/carraway on GitHub"
               class="Nav--CTA"
             >

@@ -9,7 +9,7 @@ import Accordion from '../components/Accordion'
 
 export const convertServicesToPostFormat = services => {
   let formattedServices = []
-  services.map(service => {
+  services.forEach(service => {
     let singleItem = {
       title: service.title,
       excerpt: _.truncate(service.description, {
@@ -21,7 +21,9 @@ export const convertServicesToPostFormat = services => {
     }
     formattedServices.push(singleItem)
   })
-  return formattedServices
+
+  return formattedServices;
+
 }
 
 // Export Template for use in CMS preview

@@ -35,6 +35,9 @@ export default class Accordion extends React.Component {
               className={`Accordion--item `}
               key={`accordion-item-${_kebabCase(item.title) + '-' + index}`}
               onClick={this.handleClick}
+              onKeyDown={this.handleKeyDown}
+              role="menuitem"
+              tabIndex={0}
             >
               <h2 className="flex">
                 <span>{item.title}</span>

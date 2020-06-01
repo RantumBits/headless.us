@@ -1,11 +1,10 @@
 import React from 'react'
-import { MapPin, Smartphone, Mail } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
 import FormSignupAjax from '../components/FormSignupAjax'
 import Content from '../components/Content'
-import GoogleMap from '../components/GoogleMap'
+
 import Layout from '../components/Layout'
 import './ContactPage.css'
 
