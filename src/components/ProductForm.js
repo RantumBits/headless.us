@@ -16,13 +16,14 @@ const ProductForm = ({ product }) => {
   const [quantity, setQuantity] = useState(1)
   const {
     addVariantToCart,
-    store: { client, adding, checkout },
+    //store: { client, adding, checkout },
+    store: { client, adding },
   } = useContext(StoreContext)
 
   const productVariant =
     client.product.helpers.variantForOptions(product, variant) || variant
   const [available, setAvailable] = useState(productVariant.availableForSale)
-
+/* eslint-disable react-hooks/exhaustive-deps */
   const checkAvailability = useCallback(
     productId => {
       client.product.fetch(productId).then(fetchedProduct => {
@@ -37,7 +38,7 @@ const ProductForm = ({ product }) => {
     },
     [client.product, productVariant.shopifyId, variants]
   )
-
+/* eslint-ensable react-hooks/exhaustive-deps */ 
   useEffect(() => {
     checkAvailability(product.shopifyId)
   }, [productVariant, checkAvailability, product.shopifyId])
@@ -117,7 +118,7 @@ const ProductForm = ({ product }) => {
               name={name}
               className="Form--Input Form--Select"
               key={id}
-              onChange={event => handleOptionChange(index, event)}
+              onBlur={event => handleOptionChange(index, event)}
             >
               {values.map(value => (
                 <option
@@ -155,7 +156,7 @@ const ProductForm = ({ product }) => {
       <h3>
         {price}
         {`  `}
-        {productVariant.compareAtPrice && compareAtPrice != price && (
+        {productVariant.compareAtPrice && compareAtPrice !== price && (
           <span style={{ textDecoration: 'line-through' }}>
             {compareAtPrice}
           </span>

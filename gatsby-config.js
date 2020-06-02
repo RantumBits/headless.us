@@ -118,8 +118,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'ecomloop',
-        short_name: 'ecomloop',
+        name: 'headless',
+        short_name: 'headless',
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',

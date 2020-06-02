@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Location } from '@reach/router'
+
 import PageHeader from '../components/PageHeader'
 import Layout from '../components/Layout'
 

@@ -62,7 +62,7 @@ const ProductGrid = () => {
             },
           }) => (
             <div className="PostCard Product" key={id}>
-              <Link to={`/solution/${handle}/`}>
+              <Link to={`/product/${handle}/`}>
                 {firstImage && firstImage.localFile && (
                   <Image
                     fluid={firstImage.localFile.childImageSharp.fluid}
@@ -78,7 +78,7 @@ const ProductGrid = () => {
                 </div>
                 <div style={{ paddingTop: '20px' }}>
                   <Link
-                    to={`/solution/${handle}/`}
+                    to={`/product/${handle}/`}
                     style={{ width: '%' }}
                     className="Nav--CTA"
                   >

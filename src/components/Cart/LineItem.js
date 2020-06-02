@@ -16,13 +16,13 @@ const LineItem = props => {
       height="60px"
     />
   ) : null
-
+/* eslint-disable no-unused-vars */
   const selectedOptions = line_item.variant.selectedOptions
     ? line_item.variant.selectedOptions.map(
         option => `${option.name}: ${option.value} `
       )
     : null
-
+/* eslint-enable no-unused-vars */
   const handleRemove = () => {
     removeLineItem(client, checkout.id, line_item.id)
   }

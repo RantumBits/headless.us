@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
 import './ProductGalleryThumbnails.css'
 
@@ -26,6 +25,9 @@ const ProductGalleryThumbnails = ({ productimages }) => {
               <span
                 className="Thumbnail"
                 onClick={() => setCurrentImageIndex(index)}
+                onKeyDown={() => setCurrentImageIndex(index)}
+                role="menuitem"
+                tabIndex={0}
               >
                 <Image
                   fluid={image.localFile.childImageSharp.fluid}

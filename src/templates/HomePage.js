@@ -7,9 +7,9 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import Accordion from '../components/Accordion'
 
-export const convertServicesToPostFormat = services => {
-  let formattedServices = []
-  services.forEach(service => {
+export const convertProductsToPostFormat = products => {
+  let formattedProducts = []
+  products.forEach(service => {
     let singleItem = {
       title: service.title,
       excerpt: _.truncate(service.description, {
@@ -17,12 +17,12 @@ export const convertServicesToPostFormat = services => {
         omission: `…`,
       }),
       featuredImage: service.images[0].originalSrc,
-      slug: '/service/' + service.handle,
+      slug: '/product/' + service.handle,
     }
-    formattedServices.push(singleItem)
+    formattedProducts.push(singleItem)
   })
 
-  return formattedServices;
+  return formattedProducts;
 
 }
 
@@ -34,8 +34,7 @@ export const HomePageTemplate = ({
   body,
   accordion,
   posts,
-  services,
-  projects,
+  products,
 }) => (
   <main className="Home">
     <PageHeader
@@ -51,12 +50,12 @@ export const HomePageTemplate = ({
       </div>
     </section>
 
-    {!!services.length && convertServicesToPostFormat(services) && (
+    {!!products.length && convertProductsToPostFormat(products) && (
       <section className="section">
         <div className="container">
           <PostSection
             title="demo shop"
-            posts={convertServicesToPostFormat(services)}
+            posts={convertProductsToPostFormat(products)}
           />
         </div>
       </section>
@@ -80,7 +79,7 @@ export const HomePageTemplate = ({
 )
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { page, posts, services, projects } }) => (
+const HomePage = ({ data: { page, posts, products, projects } }) => (
   <Layout meta={page.frontmatter.meta || false}>
     <HomePageTemplate
       {...page}
@@ -91,7 +90,7 @@ const HomePage = ({ data: { page, posts, services, projects } }) => (
         ...post.node.frontmatter,
         ...post.node.fields,
       }))}
-      services={services.edges.map(service => ({
+      products={products.edges.map(service => ({
         ...service.node,
       }))}
     />
@@ -143,7 +142,7 @@ export const pageQuery = graphql`
       }
     }
 
-    services: allShopifyProduct(
+    products: allShopifyProduct(
       sort: { fields: publishedAt, order: DESC }
       limit: 3
     ) {
