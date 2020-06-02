@@ -94,7 +94,7 @@ export class Navigation extends Component {
               href="https://github.com/ecomloop/headless/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Fork ecomloop/carraway on GitHub"
+              aria-label="Find on GitHub"
               class="Nav--CTA"
             >
               download on github
